@@ -69,7 +69,7 @@ menu:
   KMS:
     default: /kms/ || fa fa-server
     KMS Servers:
-      default: /index.html || fa fa-server
+      default: /kms_servers.html || fa fa-server
     Windows 10 KMS Keys:
       default: /windows_10_kms_keys.html || fa fa-key
     Office Licenses Information:

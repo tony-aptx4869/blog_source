@@ -129,4 +129,4 @@ Word2021Volume | Word 2021 | ❌ | ✅ | ✅ | TN8H9-M34D3-Y64V9-TR72V-X79KV
 WordRetail | Word 2016 | ✅ | ❌ | ❌ | YVD87-NXWK4-8PYQP-GT8KT-YG92Y
 WordVolume | Word 2016 | ❌ | ✅ | ✅ | WXY84-JN2Q9-RBCCQ-3Q3J3-3PFJ6
 
-## 🔙 Back to [KMS Servers](./index.html)
+## 🔙 Back to [KMS Servers](./kms_servers.html)
