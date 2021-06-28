@@ -116,7 +116,7 @@ chat:
   enable: true
   service: chatra
   #service: tidio
-  icon: fa fa-comment
+  icon: fa fa-comments
   # Icon name in Font Awesome, set false to disable icon.
   text: 'Chat with me'
   # Button text, change it as you wish.
