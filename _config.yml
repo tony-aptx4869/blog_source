@@ -1,0 +1,122 @@
+#################################################################
+###################### Hexo Configuration #######################
+#################################################################
+
+# Site
+title: APTX4869
+subtitle: 'Talk is cheap, Show me your dick.'
+#subtitle: 'Talk is cheap, Show me your dick.<br>Blog of Tony Chang. Powered by Github & Hexo. Faith provided by Edogawa Conan, aka, Kudou Shinichi.'
+description: 'Talk is cheap, Show me your dick.'
+keywords: 'macOS, iOS, iPadOS, watchOS, tvOS, Apple, iPhone, iPad, Watch, Mac, MacBook, TV, 4K, PlayStation, PlayStation 4, PlayStation 5, PS, PS4, PS5, Xbox, Xbox One, Xbox One X, X1, X1X, Xbox Series X, XSX, Nintendo, Switch'
+author: Tony Chang
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# URL
+url: https://aptx4869.tv
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+  - robots.txt
+  - animate/*
+  - highlight/*
+  - LICENSE
+  - LICENSE-GPLv3
+  - README.md
+  - CNAME
+  - 404.html
+  - lib/**/*
+  - pdfs/*
+
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+
+highlight:
+  enable: true
+  auto_detect: false
+  line_number: true
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+index_generator:
+  per_page: 4
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+per_page: 5
+pagination_dir: page
+
+# Extensions
+theme: next
+
+archive_generator:
+  per_page: 12
+  yearly: true
+  monthly: true
+  daily: false
+
+marked:
+  # For preserve original quotes in code blocks.
+  smartypants: false
+  lazyload: true
+
+search:
+  path: search.json
+  field: all
+
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: git@github.com:tony-aptx4869/tony-aptx4869.github.io.git
+  branch: main
+
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 1
+  wpm: 309
+
