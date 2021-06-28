@@ -20,42 +20,41 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          ref: hexo
 
-      # Runs a set of commands using the runners shell
-      - name: Install packages
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v2
+        with:
+          version: ${{ matrix.node_version }}
+
+      - name: Install hexo
         run: |
-          echo "Install packages..."
+          echo "Install hexo..."
 
-          sudo apt -y install nodejs npm
-          echo ">>>>>> nodejs & npm installation done!"
-
-          sudo npm install hexo-cli
+          npm install hexo-cli -g
           echo ">>>>>> hexo-cli installation done!"
-
-          sudo which hexo
 
           npm install
           echo ">>>>>> dependencies installation done!"
 
           git clone https://github.com/next-theme/theme-next-pdf source/lib/pdf
           rm -f source/lib/pdf/README.md
-          echo ">>>>>> pdf lib installation done!"
+          echo ">>>>>> pdf_lib installation done!"
 
-          echo "Install packages ALL done!"
+          echo "Install hexo ALL done!"
 
       # Runs a set of commands using the runners shell
       - name: Generate blog using hexo
         run: |
           echo "Generate blog using hexo..."
 
-          /usr/local/bin/hexo clean
+          hexo clean
           echo ">>>>>> hexo clean done!"
 
-          /usr/local/bin/hexo generate
+          hexo generate
           echo ">>>>>> hexo generate done!"
 
           echo "Blog generation done!"
