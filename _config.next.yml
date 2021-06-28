@@ -71,11 +71,11 @@ menu:
   KMS:
     default: /kms/ || fa fa-server
     KMS Servers:
-      default: / || fa fa-server
+      default: /index.html || fa fa-server
     Windows 10 KMS Keys:
       default: /windows_10_kms_keys.html || fa fa-key
     Office Licenses Information:
-      default: /office_lcs_info.html || fa fa-rectangle-list
+      default: /office_lcs_info.html || fa fa-list-ul
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat
   # Docs:
