@@ -1,5 +1,7 @@
 # APTX4869 README（简体中文，Simplified Chinese）
 
+[![hexo](https://github.com/tony-aptx4869/blog_source/actions/workflows/hexo.yml/badge.svg?branch=main)](https://github.com/tony-aptx4869/blog_source/actions/)
+
 ## 关于
 
 这是我的博客源码，由 [Hexo](https://hexo.io) 和 [NexT](https://theme-next.js.org) 自动生成。
@@ -17,6 +19,8 @@
 
 # APTX4869 README（正體中文，Traditional Chinese）
 
+[![hexo](https://github.com/tony-aptx4869/blog_source/actions/workflows/hexo.yml/badge.svg?branch=main)](https://github.com/tony-aptx4869/blog_source/actions/)
+
 ## 關於
 
 這是我的部落格源碼，由 [Hexo](https://hexo.io) 和 [NexT](https://theme-next.js.org) 自動生成。
@@ -33,6 +37,8 @@
 
 
 # APTX4869 README (English)
+
+[![hexo](https://github.com/tony-aptx4869/blog_source/actions/workflows/hexo.yml/badge.svg?branch=main)](https://github.com/tony-aptx4869/blog_source/actions/)
 
 ## About
 
