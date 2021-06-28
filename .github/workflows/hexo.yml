@@ -27,7 +27,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          version: ${{ matrix.node_version }}
+          version: ${{ node-version }}
 
       - name: Install hexo
         run: |
