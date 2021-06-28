@@ -36,6 +36,8 @@ jobs:
           sudo npm install hexo-cli
           echo ">>>>>> hexo-cli installation done!"
 
+          sudo which hexo
+
           npm install
           echo ">>>>>> dependencies installation done!"
 
