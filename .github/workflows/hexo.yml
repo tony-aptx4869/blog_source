@@ -50,10 +50,12 @@ jobs:
         run: |
           echo "Generate blog using hexo..."
 
+          which hexo
+
           hexo clean
           echo ">>>>>> hexo clean done!"
 
           hexo generate
           echo ">>>>>> hexo generate done!"
-          
+
           echo "Blog generation done!"
