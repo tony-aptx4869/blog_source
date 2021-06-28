@@ -36,7 +36,7 @@ jobs:
         run: |
           echo "Install hexo..."
 
-          npm install hexo-cli -g
+          sudo npm install hexo-cli -g
           echo ">>>>>> hexo-cli installation done!"
 
           npm install
@@ -53,10 +53,10 @@ jobs:
         run: |
           echo "Generate blog using hexo..."
 
-          hexo clean
+          /usr/local/lib/node_modules/hexo-cli/bin/hexo clean
           echo ">>>>>> hexo clean done!"
 
-          hexo generate
+          /usr/local/lib/node_modules/hexo-cli/bin/hexo generate
           echo ">>>>>> hexo generate done!"
 
           echo "Blog generation done!"
