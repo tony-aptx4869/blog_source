@@ -50,10 +50,10 @@ jobs:
         run: |
           echo "Generate blog using hexo..."
 
-          sudo hexo clean
+          /usr/local/bin/hexo clean
           echo ">>>>>> hexo clean done!"
 
-          sudo hexo generate
+          /usr/local/bin/hexo generate
           echo ">>>>>> hexo generate done!"
 
           echo "Blog generation done!"
