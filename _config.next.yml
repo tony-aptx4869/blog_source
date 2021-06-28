@@ -65,9 +65,7 @@ github_banner:
 
 menu:
   home: / || fa fa-home
-  archives: /archives/ || fa fa-archive
-  categories: /categories/ || fa fa-dice-d6
-  tags: /tags/ || fa fa-tags
+
   KMS:
     default: /kms/ || fa fa-server
     KMS Servers:
@@ -76,6 +74,10 @@ menu:
       default: /windows_10_kms_keys.html || fa fa-key
     Office Licenses Information:
       default: /office_lcs_info.html || fa fa-list-ul
+
+  archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-dice-d6
+  tags: /tags/ || fa fa-tags
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat
   # Docs:
