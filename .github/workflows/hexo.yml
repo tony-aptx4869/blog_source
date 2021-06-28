@@ -30,13 +30,13 @@ jobs:
         run: |
           echo "Install packages..."
           sudo apt -y install nodejs npm
-          sydo npm install -g hexo-cli
           echo "Install packages done!"
 
       # Runs a set of commands using the runners shell
       - name: Generate blog using hexo
         run: |
           echo "Generate blog using hexo..."
+          npm install hexo-cli
           npm install
           git clone https://github.com/next-theme/theme-next-pdf source/lib/pdf
           rm -f source/lib/pdf/README.md
