@@ -21,13 +21,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
 
-      - name: Checkout source
-        uses: actions/checkout@v2
-        with:
-          ref: main
-
-      - name: Use Node.js ${{ matrix.node_version }}
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           version: ${{ matrix.node_version }}
