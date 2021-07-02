@@ -2,6 +2,7 @@
 layout: post
 title: Hexo，你好
 date: 1994-02-18 13:05:06
+description: Hexo，你好……
 categories: 
   - 未分类
 tags: 

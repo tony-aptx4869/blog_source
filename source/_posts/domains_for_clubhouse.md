@@ -2,6 +2,7 @@
 layout: post
 title: ClubHouse穿越域名
 date: 2021-03-17 09:25:03
+description: 如果你的穿越规则里没有加入ClubHouse的域名……
 categories: 
   - 穿越
 tags: 
