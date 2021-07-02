@@ -120,3 +120,7 @@ symbols_count_time:
   awl: 1
   wpm: 309
 
+aplayer:
+  enable: true
+  asset_inject: false
+  meting: true

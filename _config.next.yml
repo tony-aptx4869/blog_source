@@ -16,6 +16,7 @@ minify: true
 custom_file_path:
   sidebar: source/_data/sidebar.njk
   footer: source/_data/footer.njk
+  bodyEnd: source/_data/bodyend.njk
   variable: source/_data/variables.styl
   style: source/_data/styles.styl
 
