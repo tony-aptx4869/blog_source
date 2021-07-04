@@ -75,7 +75,26 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  工具: tools
+  词云: wordcloud
+  未分类: uncategorized
+  穿越: proxy
+  语言: languages
+  日本語: japanese
 tag_map:
+  コナン: conan
+  中文: chinese
+  汉语: chinese_han
+  汉字: chinese_character
+  国名: country_or_region
+  域名: domain
+  工具: tools
+  日本語: japanese
+  歌詞: lyrics
+  略称: abbreviation
+  词云: wordcloud
+  穿越: proxy
+
 
 # Date / Time format
 date_format: YYYY-MM-DD
