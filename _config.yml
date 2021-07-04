@@ -124,3 +124,11 @@ aplayer:
   enable: true
   asset_inject: false
   meting: true
+
+feed:
+  limit: 20
+  type: atom
+  path: atom.xml
+  order_by: -date
+  content_limit: 140
+  autodiscovery: true

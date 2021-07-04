@@ -42,7 +42,25 @@ custom_file_path:
 #scheme: Pisces
 scheme: Gemini
 
-darkmode: true
+darkmode: false
+
+# Darkmode JS
+# For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js
+darkmode_js:
+  enable: true
+  bottom: '124px' # default: '32px'
+  right: '32px' # default: '32px'
+  left: 'unset' # default: 'unset'
+  time: '0.5s' # default: '0.3s'
+  mixColor: 'transparent' # default: '#fff'
+  backgroundColor: 'transparent' # default: '#fff'
+  buttonColorDark: '#100f2c' # default: '#100f2c'
+  buttonColorLight: '#fff' # default: '#fff'
+  isActivated: false # default false
+  saveInCookies: true # default: true
+  label: '🌗' # default: ''
+  autoMatchOsTheme: true # default: true
+  libUrl: # Set custom library cdn url for Darkmode.js
 
 
 # ============================================================= #
@@ -79,9 +97,19 @@ preconnect: true
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/tony-aptx4869
   title: '在GitHub关注我。/在GitHub關注我。/Follow me on GitHub.'
+
+canvas_ribbon:
+  enable: true
+  # Width of Ribbon
+  size: 300
+  # Transparency of Ribbon
+  alpha: 0.7
+  # Display level of Ribbon
+  zIndex: -1
+
 
 # ============================================================= #
 # ======================= Menu Settings ======================= #
@@ -221,20 +249,20 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/tony-aptx4869 || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  E-Mail: mailto:tonychang7869@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
-  #YouTube: https://youtube.com/yourname || fab fa-youtube
+  YouTube: https://www.youtube.com/channel/UCdxkMbirTsG0G63x3QUU8rg || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
   RSS: /atom.xml || fa fa-rss
 
 social_icons:
   enable: true
-  icons_only: true
+  icons_only: false
   transition: true
 
 toc:
@@ -242,7 +270,7 @@ toc:
   # Automatically add list number to toc.
   number: true
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
+  wrap: true
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
   # Maximum heading depth of generated toc.
@@ -329,6 +357,13 @@ reading_progress:
   reversed: false
   color: "#37c6c0"
   height: 4px
+
+back2top:
+  enable: true
+  # Back to top in sidebar.
+  sidebar: false
+  # Scroll percent label in b2t button.
+  scrollpercent: true
 
 # Bookmark Support
 bookmark:
@@ -587,3 +622,5 @@ motion:
 
 vendors:
   internal: jsdelivr
+  canvas_ribbon: https://cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@latest/canvas-ribbon.js
+
