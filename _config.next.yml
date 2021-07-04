@@ -479,7 +479,7 @@ disqus:
 waline:
   enable: true
   serverURL: https://aptx4869-waline.vercel.app # Waline server address url
-  placeholder: "请在这里评论。/ 請於此處評論。/ Comment here please." # Comment box placeholder
+  placeholder: "请在这里评论。「上传图片」功能尚无法使用，请将图片上传至您常用图床。/ 請於此處評論。「上載圖片」功能尚無法使用，請將圖片上傳到您常用圖床。/ Comment here please. PICTURE-UPLOAD is not available yet. Please upload them to the server you usually use." # Comment box placeholder
   dark: auto # Dark mode css selector, for more information: https://waline.js.org/client/basic.html#dark
   avatar: 'retro' # Gravatar style
   meta: [nick, mail, link] # Custom comment header
@@ -493,7 +493,7 @@ waline:
   avatarCDN: https://sdn.geekzu.org/avatar/ # Set custom gravatar cdn url
   copyright: true # Display the footer copyright information
   qiniuDomain: http://img.tonychang1069.top # The custom domain for qiniu, e.g https://qiniu.example.cn
-  qiniuTokenUrl: # The api to get qiniu upload token, e.g https://api.example.cn/qiniu/sdk/token/upload
+  qiniuTokenUrl: https://qiniu-aptx4869.vercel.app/upload # The api to get qiniu upload token, e.g https://api.example.cn/qiniu/sdk/token/upload
   emoji: [
     'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
     'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',

@@ -36,6 +36,7 @@ skip_render:
   - 404.html
   - lib/**/*
   - pdfs/*
+  - tmp_posts/*
 
 
 # Writing
