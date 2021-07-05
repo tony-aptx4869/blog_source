@@ -249,7 +249,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/tony-aptx4869 || fab fa-github
-  E-Mail: mailto:tonychang7869@gmail.com || fa fa-envelope
+  E-Mail: mailto:admin@aptx4869.tv || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -379,14 +379,14 @@ bookmark:
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
   enable: true
-  animation: true
+  animation: false
   comment: "如果您喜欢我的文章，欢迎投食。/ It's my pleasure if you buy me a coffee."
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
-  #paypal: /images/paypal.png
-  #bitcoin: /images/bitcoin.png
+  wechatpay: /images/wechatpay.jpg
+  alipay: /images/alipay.jpg
+  paypal: /images/paypal.png
+  bitcoin: /images/bitcoin.jpg
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
@@ -508,7 +508,7 @@ waline:
   # print the error message of the picture uploaded by qiniu
   qiniuDebug: false
   # The custom domain for qiniu, e.g https://qiniu.example.cn
-  qiniuDomain: http://img.tonychang1069.top/
+  qiniuDomain: http://img.tonychang1069.top
   # The api to get qiniu upload token, e.g https://api.example.cn/qiniu/sdk/token/upload
   qiniuTokenUrl: https://qiniu-aptx4869.vercel.app/upload
   # Customize the emoji of the comment box. For more infomation: https://waline.js.org/guide/client/emoji.html
