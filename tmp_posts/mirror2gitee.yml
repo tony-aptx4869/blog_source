@@ -24,26 +24,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: SSH Private Key
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
-        run: |
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          echo "StrictHostKeyChecking no" >> ~/.ssh/config
-      
-      - name: Mirror to Gitee
-        env:
-          SOURCE_REPO: 'https://github.com/tony-aptx4869/blog_source.git'
-          DESTINATION_REPO: 'git@gitee.com:tony-aptx4869/blog_source.git'
-        run: |
-          git clone --mirror "$SOURCE_REPO" tmp_repo
-          cd tmp_repo
-          git remote set-url --push origin "$DESTINATION_REPO"
-          git fetch -p origin
-        #git for-each-ref --format 'delete %(refname)' refs/pull | git update-ref --stdin
-          git push --mirror
+      - name: Mirror to Gitee.
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/tony-aptx4869
+          dst: gitee/tony-aptx4869
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: 'blog_source'
+          account_type: user
 
 

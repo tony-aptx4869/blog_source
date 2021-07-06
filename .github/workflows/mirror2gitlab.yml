@@ -24,11 +24,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Configure Private Key
+      - name: SSH Private Key
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITLAB_PRIVATE_KEY }}
         run: |
           mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
@@ -42,7 +43,7 @@ jobs:
           cd tmp_repo
           git remote set-url --push origin "$DESTINATION_REPO"
           git fetch -p origin
-          git for-each-ref --format 'delete %(refname)' refs/pull | git update-ref --stdin
+        #git for-each-ref --format 'delete %(refname)' refs/pull | git update-ref --stdin
           git push --mirror
 
 
