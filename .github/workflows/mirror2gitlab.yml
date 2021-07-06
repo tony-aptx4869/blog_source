@@ -24,12 +24,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Mirror this GitHub repo to GitLab.
-        uses: pixta-dev/repository-mirroring-action@v1
+      - name: Mirror this GitHub repo to Gitee.
+        uses: Yikun/hub-mirror-action@master
         with:
-          target_repo_url:
-            git@gitlab.com:tony-aptx4869/blog_source.git
-          ssh_private_key:
-            ${{ secrets.GITLAB_PRIVATE_KEY }}
+          src: github/tony-aptx4869
+          dst: gitlab/tony-aptx4869
+          dst_key: ${{ secrets.GITLAB_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITLAB_TOKEN }}
+          static_list: 'blog_source'
+          account_type: user
 
 
