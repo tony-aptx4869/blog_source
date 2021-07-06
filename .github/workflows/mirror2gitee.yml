@@ -23,14 +23,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: Mirror this GitHub repo to Gitee.
-        uses: Yikun/hub-mirror-action@master
+        uses: pixta-dev/repository-mirroring-action@v1
         with:
-          src: github/blog_source
-          dst: gitee/blog_source
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITEE_TOKEN }}
-          force_update: true
-          timeout: '30m'
+          target_repo_url:
+            git@gitee.com:tony-aptx4869/blog_source.git
+          ssh_private_key:
+            ${{ secrets.GITEE_PRIVATE_KEY }}
+
 
