@@ -25,10 +25,10 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Mirror to GitLab.
-        uses: spyoungtech/mirror-action@master
+        uses: pixta-dev/repository-mirroring-action@master
         with:
-          REMOTE: git@gitlab.com:tony-aptx4869/blog_source.git
-          GIT_SSH_PRIVATE_KEY: ${{ secrets.GITLAB_PRIVATE_KEY }}
-          GIT_SSH_NO_VERIFY_HOST: "true"
+          target_repo_url: git@gitlab.com:tony-aptx4869/blog_source.git
+          ssh_private_key: ${{ secrets.GITLAB_PRIVATE_KEY }}
+
 
 
