@@ -30,6 +30,6 @@ jobs:
           target_repo_url:
             git@gitlab.com:tony-aptx4869/blog_source.git
           ssh_private_key:
-            ${{ secrets.GITEE_PRIVATE_KEY }}
+            ${{ secrets.GITLAB_PRIVATE_KEY }}
 
 
