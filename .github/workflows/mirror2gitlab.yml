@@ -1,0 +1,36 @@
+# This is a simple workflow to mirror a GitHub repo to Gitee
+name: Mirror this GitHub repo to GitLab.
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # UTC 17:00 -> CST (China) 1:00, see https://datetime360.com/cn/utc-cst-china-time/
+    - cron: '10 * * * *'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  run:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Mirror this GitHub repo to GitLab.
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url:
+            git@gitlab.com:tony-aptx4869/blog_source.git
+          ssh_private_key:
+            ${{ secrets.GITEE_PRIVATE_KEY }}
+
+
+
