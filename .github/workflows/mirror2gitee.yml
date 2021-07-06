@@ -25,11 +25,13 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Mirror this GitHub repo to Gitee.
-        uses: pixta-dev/repository-mirroring-action@v1
+        uses: Yikun/hub-mirror-action@master
         with:
-          target_repo_url:
-            git@gitee.com:tony-aptx4869/blog_source.git
-          ssh_private_key:
-            ${{ secrets.GITEE_PRIVATE_KEY }}
+          src: github/tony-aptx4869
+          dst: gitee/tony-aptx4869
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: 'blog_source'
+          account_type: user
 
 
