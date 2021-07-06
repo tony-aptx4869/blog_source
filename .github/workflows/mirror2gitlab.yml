@@ -1,5 +1,5 @@
 # This is a simple workflow to mirror a GitHub repo to Gitee
-name: Mirror this GitHub repo to GitLab.
+name: Mirror to GitLab.
 
 # Controls when the workflow will run
 on:
@@ -24,14 +24,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Mirror this GitHub repo to Gitee.
-        uses: Yikun/hub-mirror-action@master
+      - name: Mirror to GitLab.
+        uses: spyoungtech/mirror-action@master
         with:
-          src: github/tony-aptx4869
-          dst: gitlab/tony-aptx4869
-          dst_key: ${{ secrets.GITLAB_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITLAB_TOKEN }}
-          static_list: 'blog_source'
-          account_type: user
+          REMOTE: git@gitlab.com:tony-aptx4869/blog_source.git
+          GIT_SSH_PRIVATE_KEY: ${{ secrets.GITLAB_PRIVATE_KEY }}
+          GIT_SSH_NO_VERIFY_HOST: "true"
 
 
