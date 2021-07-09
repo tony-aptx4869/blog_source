@@ -11,7 +11,6 @@ tags:
   - md
   - github
 ---
-# Hexo，你好
 
 欢迎来到 [Hexo](https://hexo.io/)！ 这是你的第一篇文章。 查看 [文档](https://hexo.io/docs/) 了解更多信息。如果你在使用 Hexo 时遇到任何问题，你可以在 [疑难解答](https://hexo.io/docs/troubleshooting.html) 中找到答案，也可以在 [GitHub](https://github.com/hexojs/hexo/issues) 上问我。
 

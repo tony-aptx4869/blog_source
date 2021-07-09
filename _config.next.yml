@@ -192,7 +192,7 @@ menu:
 
   #about: /about/ || fa fa-user
   #schedule: /schedule/ || fa fa-calendar
-  #sitemap: /sitemap.xml || fa fa-sitemap
+  sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
 menu_settings:
@@ -249,7 +249,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/tony-aptx4869 || fab fa-github
-  E-Mail: mailto:admin@aptx4869.tv || fa fa-envelope
+  E-Mail: mailto:tonychang7869@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -428,7 +428,7 @@ index_with_subtitle: true
 
 exturl: true
 
-google_site_verification: 
+# google_site_verification: 
 
 
 # ============================================================= #
@@ -538,8 +538,13 @@ waline:
 # ================= Statistics and Analytics ================== #
 # ============================================================= #
 
+# Google Analytics ID
 google_analytics:
   tracking_id: 
+
+# Baidu Analytics ID
+baidu_analytics: b234a0bcfedf2e5d6a8f6b75b418824e
+
 
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi

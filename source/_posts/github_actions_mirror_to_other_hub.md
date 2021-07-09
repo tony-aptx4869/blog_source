@@ -14,8 +14,6 @@ tags:
   - Gitee
 ---
 
-# GitHub Actions妙用：自动镜像同步到其他hub
-
 ## 引言
 
 我的代码托管在 [GitHub](https://github.com)，我希望把 GitHub 的某（或某些、或全部）仓库镜像同步到 [Gitee](https://gitee.com) 和 [GitLab](https://gitlab.com) 上。不仅是为了异地容灾，同时也可以更多地 show my code。
@@ -57,11 +55,9 @@ ssh-keygen -t rsa
 
 首先要拷贝公钥文件 `id_rsa.pub` 的内容，可以使用 `vim`、`gedit`、`Visual Studio Code` 等文本编辑器或者IDE。
 
-{% tabs config_public_key, 1 %}
-<!-- tab GitLab @gem -->
+#### GitLab
 
-{% tabs gitlab, 1 %}
-<!-- tab 进入 SSH Keys 页面 @door-open -->
+##### 进入 SSH Keys 页面
 
 在 GitLab 网页上，点击右上角用户头像，在弹出菜单中点击 `Preferences`。
 
@@ -71,8 +67,7 @@ ssh-keygen -t rsa
 
 ![GitLab_02](https://aptx4869.tv/images/github_gitlab_gitee/20210706192357.png)
 
-<!-- endtab -->
-<!-- tab 粘贴公钥文件 id_rsa.pub 的内容 → @paste -->
+##### 粘贴公钥文件 `id_rsa.pub` 的内容
 
 在 `Key` 处大文本框中，粘贴公钥文件 `id_rsa.pub` 的内容，在 `Title` 处填入名称，便于自己识别。`Expires at` 处为过期日期，我这里不填写，不填写则为永久有效。
 
@@ -80,8 +75,7 @@ ssh-keygen -t rsa
 
 填写完毕后，点击 `Add Key` 按钮。
 
-<!-- endtab -->
-<!-- tab 确认配置成功 @check -->
+##### 确认配置成功
 
 页面会显示出刚刚添加的公钥内容。
 
@@ -91,15 +85,9 @@ ssh-keygen -t rsa
 
 OK，在 GitLab 上配置好了公钥。
 
-<!-- endtab -->
-{% endtabs %}
+#### Gitee
 
-<!-- endtab -->
-
-<!-- tab Gitee @puzzle-piece -->
-
-{% tabs gitee, 1 %}
-<!-- tab 进入 SSH公钥 页面 → @door-open -->
+##### 进入 SSH公钥 页面
 
 在 Gitee 网页上，点击右上角用户头像，在弹出菜单中点击 `设置`。
 
@@ -109,8 +97,7 @@ OK，在 GitLab 上配置好了公钥。
 
 ![Gitee_02](https://aptx4869.tv/images/github_gitlab_gitee/20210706194647.png)
 
-<!-- endtab -->
-<!-- tab 粘贴公钥文件 id_rsa.pub 的内容 → @paste -->
+##### 粘贴公钥文件 `id_rsa.pub` 的内容
 
 在 `标题` 处填入名称，便于自己识别，在 `公钥` 处大文本框中，粘贴公钥文件 `id_rsa.pub` 的内容。
 
@@ -122,8 +109,7 @@ OK，在 GitLab 上配置好了公钥。
 
 输入用户密码之后，点击 `验证` 按钮。
 
-<!-- endtab -->
-<!-- tab 确认配置成功 @check -->
+##### 确认配置成功
 
 页面会提示添加成功，并显示出刚刚添加的公钥的 `SHA256` 校验信息。
 
@@ -131,14 +117,8 @@ OK，在 GitLab 上配置好了公钥。
 
 OK，在 Gitee 上配置好了公钥。
 
-<!-- endtab -->
-{% endtabs %}
-
-<!-- endtab -->
-{% endtabs %}
-
 ### 把私钥配置到 GitHub 仓库
 
-作为镜像源的 GitHub 仓库，要配置私钥，以支撑 GitHub Actions 脚本对 GitLab 和 Gitee 镜像同步的操作。
+作为镜像源的 GitHub 仓库，要配置私钥，以支撑 GitHub Actions 脚本向 GitLab 和 Gitee 进行镜像同步的操作。
 
 ## ** To be continue... **

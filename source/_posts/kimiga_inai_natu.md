@@ -12,8 +12,6 @@ tags:
   - コナン
 ---
 
-# 君がいない夏
-
 若`PDF`中的文件无法正常显示，请点选`Text`选项卡查看文本。
 
 {% tabs kimino_namidani_konnani_koisiteru, 2 %}

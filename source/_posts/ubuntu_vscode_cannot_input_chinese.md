@@ -12,7 +12,6 @@ tags:
   - linux
   - 中文
 ---
-# Ubuntu商店VSCode无法输入中文
 
 前几天在虚拟机装个Ubuntu，学习操作系统的知识。
 

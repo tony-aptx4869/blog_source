@@ -11,13 +11,10 @@ tags:
   - 词云
   - 汉语
 ---
-# 第一次，词云
-
-![](https://aptx4869.tv/images/20210702144540.png)
-
-<!-- more -->
 
 今天习总书记在党成立一百周年大会上讲话，拿讲稿来生成词云。
+
+![](https://aptx4869.tv/images/20210702144540.png)
 
 使用[微思词云](https://mywis.cn/wordcloud)在线生成。
 
