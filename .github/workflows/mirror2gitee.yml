@@ -39,6 +39,8 @@ jobs:
           SOURCE_REPO: 'https://github.com/tony-aptx4869/blog_source.git'
           DESTINATION_REPO: 'git@gitee.com:tony-aptx4869/blog_source.git'
         run: |
+          git config --global user.email "tonychang7869@gmail.com"
+          git config --global user.name "Tony Chang"
           git clone --mirror "$SOURCE_REPO" tmp_repo
           cd tmp_repo
           git remote set-url --push origin "$DESTINATION_REPO"
