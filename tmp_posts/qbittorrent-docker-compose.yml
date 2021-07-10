@@ -4,7 +4,7 @@ services:
     image: linuxserver/qbittorrent
     container_name: qbittorrent
     environment:
-      - PUID=1030
+      - PUID=1026
       - PGID=101
       - TZ=Asia/Shanghai
       - UMASK_SET=022
