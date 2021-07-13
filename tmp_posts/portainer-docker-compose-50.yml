@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  qbittorrent:
+    image: portainer/portainer-ce
+    container_name: portainer
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Shanghai
+      - UMASK_SET=022
+      - LANG=zh_CN.UTF-8
+      - LANGUAGE=zh_CN.UTF-8
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /volume1/docker/portainer/data:/data
+    ports:
+      - 9000:9000
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
