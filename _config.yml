@@ -94,6 +94,9 @@ tag_map:
   略称: abbreviation
   词云: wordcloud
   穿越: proxy
+  App+1: app_plus_1
+  菜单栏: menubar
+  隐藏: hidden
 
 
 # Date / Time format
