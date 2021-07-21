@@ -379,8 +379,8 @@ bookmark:
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
   enable: true
-  animation: false
-  comment: "如果您喜欢我的文章，欢迎投食。/ It's my pleasure if you buy me a coffee."
+  animation: true
+  comment: "谢谢各位老爷太太们的赏！/ It's my pleasure if you buy me a coffee."
 
 reward:
   wechatpay: /images/wechatpay.jpg
@@ -508,7 +508,7 @@ waline:
   # print the error message of the picture uploaded by qiniu
   qiniuDebug: false
   # The custom domain for qiniu, e.g https://qiniu.example.cn
-  qiniuDomain: http://img.tonychang1069.top
+  qiniuDomain: https://img.tonychang1069.top
   # The api to get qiniu upload token, e.g https://api.example.cn/qiniu/sdk/token/upload
   qiniuTokenUrl: https://qiniu-aptx4869.vercel.app/upload
   # Customize the emoji of the comment box. For more infomation: https://waline.js.org/guide/client/emoji.html
