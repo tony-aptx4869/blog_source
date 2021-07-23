@@ -81,6 +81,10 @@ category_map:
   穿越: proxy
   语言: languages
   日本語: japanese
+  macOS: macos
+  CLT: clt
+  Apps: apps
+  VMware: vmware
 tag_map:
   コナン: conan
   中文: chinese
@@ -94,9 +98,14 @@ tag_map:
   略称: abbreviation
   词云: wordcloud
   穿越: proxy
+  macOS: macos
+  CLT: clt
   App+1: app_plus_1
   菜单栏: menubar
   隐藏: hidden
+  Xcode: xcode
+  闪屏: sreen_splashing
+  坑: pit
 
 
 # Date / Time format

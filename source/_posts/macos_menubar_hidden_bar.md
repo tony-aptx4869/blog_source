@@ -31,7 +31,7 @@ Hidden Bar 帮您隐藏菜单栏图标，让您的 Mac 更清爽哟！（Tony Ch
 
 ---
 
-![major_image](https://aptx4869.tv/images/macos_hidden_bar/screen1.png)
+![major_image](https://aptx4869.tv/images/macos/hidden_bar/screen1.png)
 
 Hidden Bar 非常轻量，简洁的界面和方便的操作实现了隐藏菜单栏图标的需求。
 
@@ -39,7 +39,7 @@ Hidden Bar 非常轻量，简洁的界面和方便的操作实现了隐藏菜单
 
 现在，就可以按住键盘上的 ` ⌘ command ` 键，按自己的喜好拖拽图标了，要隐藏的图就把它拖到分割线 ` | ` 左侧哦！
 
-![tutorial](https://aptx4869.tv/images/macos_hidden_bar/tutorial.gif)
+![tutorial](https://aptx4869.tv/images/macos/hidden_bar/tutorial.gif)
 
 要提醒各位，这个小工具有一项「自动隐藏图标」的功能，默认是开启状态，默认时间是10秒。所以，为了方便操作，可以先右键单击分割线 ` | ` —— `偏好设置`，进入设置窗口，把这项功能关闭先。图标都拖动完毕了，再开启。
 
@@ -57,5 +57,5 @@ Hidden Bar 非常轻量，简洁的界面和方便的操作实现了隐藏菜单
 brew cask install hiddenbar
 ```
 
-![minor_image](https://aptx4869.tv/images/macos_hidden_bar/screen2.png)
+![minor_image](https://aptx4869.tv/images/macos/hidden_bar/screen2.png)
 
