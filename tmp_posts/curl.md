@@ -15,3 +15,5 @@ For pkg-config to find curl you may need to set:
 
 zsh completions have been installed to:
   /usr/local/opt/curl/share/zsh/site-functions
+
+  
