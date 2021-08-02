@@ -21,8 +21,9 @@ tags:
 
 题目如下：
 
-{% blockquote POST Practice https://ctflearn.com/challenge/114 %}
-This website requires authentication, via POST. However, it seems as if someone has defaced our site. Maybe there is still some way to authenticate? http://165.227.106.113/post.php
+{% blockquote POST Practice - CTFLearn https://ctflearn.com/challenge/114 %}
+This website requires authentication, via POST. However, it seems as if someone has defaced our site. Maybe there is still some way to authenticate?
+http://165.227.106.113/post.php
 {% endblockquote %}
 
 ---

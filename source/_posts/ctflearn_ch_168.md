@@ -19,8 +19,9 @@ tags:
 
 题目如下：
 
-{% blockquote Wikipedia https://ctflearn.com/challenge/168 %}
-Not much to go off here, but it’s all you need: Wikipedia and 128.125.52.138.
+{% blockquote Wikipedia - CTFLearn https://ctflearn.com/challenge/168 %}
+Not much to go off here, but it’s all you need:
+Wikipedia and 128.125.52.138.
 {% endblockquote %}
 
 ---
