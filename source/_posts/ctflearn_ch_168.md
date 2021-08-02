@@ -32,7 +32,7 @@ Wikipedia and 128.125.52.138.
 
 ![ctflearn_ch168_01](https://aptx4869.tv/images/ctf/ctflearn/ch168/ch168_01.png)
 
-在页面中点按 `View history` ，这时打开了页面 [Flag: Revision history - Wikipedia](https://en.wikipedia.org/w/index.php?title=Flag&action=history) 。点按 `Filter revisions` 展开搜索区，点按 `To date` 下方的文本框，将日期定位到 `Mon, 7 Aug 2015`（2015年8月17日），可以在结果中找到包含 `IP` 地址 `128.125.52.138` 的这一条记录。
+在页面中点按 `View history` ，这时打开了页面 [Flag: Revision history - Wikipedia](https://en.wikipedia.org/w/index.php?title=Flag&action=history) 。点按 `Filter revisions` 展开搜索区，点按 `To date` 下方的文本框，将日期选定到 `Mon, 17 Aug 2015`（2015年8月17日），可以在结果中找到包含 `IP` 地址 `128.125.52.138` 的这一条记录。
 
 ![ctflearn_ch168_02](https://aptx4869.tv/images/ctf/ctflearn/ch168/ch168_02.png)
 
