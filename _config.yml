@@ -85,6 +85,15 @@ category_map:
   CLT: clt
   Apps: apps
   VMware: vmware
+  CTF: ctf
+  CTFLearn: ctflearn
+  Web: web
+  Header: header
+  POST: post
+  GET: get
+  Miscellaneous: miscellaneous
+  Wikipedia: wikipedia
+  Flag: flag
 tag_map:
   コナン: conan
   中文: chinese
@@ -106,6 +115,15 @@ tag_map:
   Xcode: xcode
   闪屏: sreen_splashing
   坑: pit
+  CTF: ctf
+  CTFLearn: ctflearn
+  Web: web
+  Header: header
+  POST: post
+  GET: get
+  Miscellaneous: miscellaneous
+  Wikipedia: wikipedia
+  Flag: flag
 
 
 # Date / Time format
