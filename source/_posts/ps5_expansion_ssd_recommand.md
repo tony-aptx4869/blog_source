@@ -15,7 +15,7 @@ tags:
   - PCIe Gen 4
 ---
 
-<strong><red>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</red></strong>
+<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
 
 ## 引言
 
@@ -23,13 +23,15 @@ tags:
 
 通过本文，我想帮助您，为您的 PS5 选择合适的 SSD 。目前，索尼官方尚未发布 SSD 兼容性列表，来告诉 PS5 用户 SSD 在尺寸、性能和架构方面所需的规格，但这并没有阻止许多网友联合起来，分享自己的 PS5 支持和兼容的 SSD 和散热片。因此，本文讨论目前适合 PS5 使用的 SSD 和散热片，以供朋友们参考。
 
-**如果您没有时间读完全文，或是现在就着急购买，至少请看下面这两张表格。**
+**如果您没有时间读完全文，或是现在就着急购买，请看[TOP 3](https://aptx4869.tv/2021/08/09/ps5_expansion_ssd_recommand/#TOP-3)一节。**
 
 ## TOP 3
 
-<strong><red>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</red></strong>
+<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
 
 ### 推荐 PS5 扩展 M.2 NVMe SSD 兼容列表 TOP 3
+
+优先推荐下列这三款
 
 <table align="center">
     <caption>推荐 PS5 扩展 M.2 NVMe SSD 兼容列表 TOP 3</caption>
@@ -120,25 +122,33 @@ tags:
 
 ### 推荐 PS5 扩展散热片兼容列表 TOP 3
 
-我在京东上搜索了「散热片」，通过跟几家客服聊天，只有 [佳翼(JEYI)](https://mall.jd.com/index-1000223349.html) 这一家店自信满满地表示，其有一款名为「酷冷纯黑(WarShip)」的散热片可以安装在PS5上，而且这一款产品也[在美国亚马逊销售](https://www.amazon.com/dp/B08L35L1ZY/ref=cm_sw_em_r_mt_dp_Y7BA8RS2274WQ7RJEA1X)。余下的散热片我只能依据国外网友的反馈，提供美国亚马逊的地址供朋友们参考。
+<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
 
-<strong><red>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</red></strong>
+我在京东上搜索了「散热片」，通过跟几家客服聊天，只有 [佳翼(JEYI)](https://mall.jd.com/index-1000223349.html) 这一家店自信满满地表示，其推出一款名为「酷冷纯黑(WarShip)」的散热片可以安装在 PS5 上，而且这一款产品也[在美国亚马逊销售](https://www.amazon.com/dp/B08L35L1ZY/ref=cm_sw_em_r_mt_dp_Y7BA8RS2274WQ7RJEA1X)。余下的散热片我只能依据国外网友的反馈，提供美国亚马逊的地址供朋友们参考。
 
 <table align="center">
     <caption>推荐 PS5 扩展散热片兼容列表 TOP 3</caption>
     <tr>
         <th style="width: 33.3333%;">
-            佳翼(JEYI) 散热片 酷冷纯黑(WarShip)<br>
-            <img src="https://aptx4869.tv/images/ps5/ssd/jeyi-m.2-heatsink-warship.jpg" alt="佳翼(JEYI) 酷冷纯黑(WarShip)">
+            佳翼(JEYI) 散热片 酷冷纯黑(WarShip)
         </th>
         <th style="width: 33.3333%;">
-            ELUTENG M.2 2280 Heatsink, Double-Sided<br>
+            ELUTENG M.2 2280 Heatsink, Double-Sided
+        </th>
+        <th style="width: 33.3333%;">
+            MHQJRH M.2 2280 SSD heatsink
+        </th>
+    </tr>
+    <tr>
+        <td style="width: 33.3333%;">
+            <img src="https://aptx4869.tv/images/ps5/ssd/jeyi-m.2-heatsink-warship.png" alt="佳翼(JEYI) 酷冷纯黑(WarShip)">
+        </td>
+        <td style="width: 33.3333%;">
             <img src="https://aptx4869.tv/images/ps5/ssd/eluteng-m.2-heatsink-double-sided.png" alt="ELUTENG M.2 2280 Heatsink, Double-Sided">
-        </th>
-        <th style="width: 33.3333%;">
-            MHQJRH M.2 2280 SSD heatsink<br>
+        </td>
+        <td style="width: 33.3333%;">
             <img src="https://aptx4869.tv/images/ps5/ssd/mhqrjr-m.2-heatsink.png" alt="MHQJRH M.2 2280 SSD heatsink">
-        </th>
+        </td>
     </tr>
     <tr>
         <td>
@@ -153,7 +163,27 @@ tags:
     </tr>
 </table>
 
-<strong><red>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</red></strong>
+<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
 
 ## 较完整的 PS5 扩展 M.2 NVMe SSD 兼容列表
+
+
+<p align=center>PS5 扩展 M.2 NVMe SSD 兼容列表<br>更新日期：2021年8月9日</p>
+
+| SSD | 满足 PS5 要求 | 散热片（重要） | 价格和链接 |
+| :-: | :- | :- | :- |
+| Seagate FireCuda 530 | 是的。由希捷确认。 | 京东自营所售没有附带散热片，请自行选购散热片。 | 1 TB - <a href="https://item.jd.com/100024621732.html" target="_blank">1,699 元</a><br>2 TB - <a href="https://item.jd.com/100024621730.html" target="_blank">3,699 元</a><br>4 TB - <a href="https://item.jd.com/100024621734.html" target="_blank">6,659 元</a> |
+| WD Black SN850 | 是的。由西部数据确认。 | 附带散热片。 | 500 GB - <a href="https://item.jd.com/100010508833.html" target="_blank">869 元</a><br>1 TB - <a href="https://item.jd.com/100018883934.html" target="_blank">1,599 元</a><br>2 TB - <a href="https://item.jd.com/100019182650.html" target="_blank">3,299 元</a> |
+| Samsung 980 Pro | 是的。通过fragilityv2确认。 | 京东自营所售没有附带散热片，请自行选购散热片。 | 250 GB - <a href="https://item.jd.com/100015610860.html" target="_blank">629 元</a><br>500 GB - <a href="https://item.jd.com/100008757399.html" target="_blank">949 元</a><br>1 TB - <a href="https://item.jd.com/100008757393.html" target="_blank">1,599 元</a><br>2 TB - <a href="https://item.jd.com/100018171904.html" target="_blank">2,999 元</a> |
+| AORUS 7000s Gen4 | 是的。由技嘉确认。 | 附带散热片。 | 1 TB - <a href="https://item.jd.com/10029494093695.html" target="_blank">1,799 元</a><br>2 TB - <a href="https://item.jd.com/10029494093696.html" target="_blank">2,999 元</a> |
+| Corsair MP600 Pro | 是的。未确认。 | 附带的散热片高度超标，请选购其他散热片。 | 1 TB - <a href="https://item.jd.com/100019616194.html" target="_blank">2,299 元</a><br>2 TB - <a href="https://item.jd.com/100019616170.html" target="_blank">3,999 元</a> |
+| 威刚(ADATA) XPG 翼龙 S70 | 是的。未确认。 | 附带的散热片高度超标，请选购其他散热片。附带的散热片非常难拆卸。 | 1 TB - <a href="https://item.jd.com/100017988100.html" target="_blank">2,499 元</a> |
+
+## 受欢迎的六款 SSD 对照比较
+
+### 价格
+
+{% ecr ps5_expansion_ssd_recommand_prices.json %}
+
+### 性能参数
 

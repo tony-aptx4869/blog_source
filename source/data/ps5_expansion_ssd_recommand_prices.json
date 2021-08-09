@@ -1,0 +1,90 @@
+{
+    "title": {
+        "text": "受欢迎的六款 SSD 价格对照比较",
+        "top": "bottom",
+        "left": "center"
+    },
+    "tooltip": {},
+    "legend": {
+        "data":[
+            "Seagate FireCuda 530",
+            "WD Black SN850",
+            "Samsung 980 Pro",
+            "AORUS 7000s Gen4",
+            "Sabrent Rocket Plus",
+            "MSI SPATIUM M480"
+        ]
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "data":["500 GB", "1 TB", "2 TB", "4 TB"]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value"
+        }],
+    "series": [
+        {
+            "name": "Seagate FireCuda 530",
+            "type": "bar",
+            "barGap": 0,
+            "label": "labelOption",
+            "emphasis": {
+                "focus": "series"
+            },
+            "data": [0, 1699, 3699, 6659]
+        },
+        {
+            "name": "WD Black SN850",
+            "type": "bar",
+            "barGap": 0,
+            "label": "labelOption",
+            "emphasis": {
+                "focus": "series"
+            },
+            "data": [869, 1599, 3299, 0]
+        },
+        {
+            "name": "Samsung 980 Pro",
+            "type": "bar",
+            "barGap": 0,
+            "label": "labelOption",
+            "emphasis": {
+                "focus": "series"
+            },
+            "data": [949, 1599, 2999, 0]
+        },
+        {
+            "name": "AORUS 7000s Gen4",
+            "type": "bar",
+            "barGap": 0,
+            "label": "labelOption",
+            "emphasis": {
+                "focus": "series"
+            },
+            "data": [0, 0, 1799, 2999]
+        },
+        {
+            "name": "Sabrent Rocket Plus",
+            "type": "bar",
+            "barGap": 0,
+            "label": "labelOption",
+            "emphasis": {
+                "focus": "series"
+            },
+            "data": [320, 332, 301, 334]
+        },
+        {
+            "name": "MSI SPATIUM M480",
+            "type": "bar",
+            "barGap": 0,
+            "label": "labelOption",
+            "emphasis": {
+                "focus": "series"
+            },
+            "data": [320, 332, 301, 334]
+        }
+    ]
+}
