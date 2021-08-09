@@ -64,7 +64,7 @@
             "emphasis": {
                 "focus": "series"
             },
-            "data": [0, 0, 1799, 2999]
+            "data": [0, 1799, 2999, 0]
         },
         {
             "name": "Sabrent Rocket Plus",
@@ -74,7 +74,7 @@
             "emphasis": {
                 "focus": "series"
             },
-            "data": [320, 332, 301, 334]
+            "data": [0, 1499, 3499, 8099]
         },
         {
             "name": "MSI SPATIUM M480",
@@ -84,7 +84,7 @@
             "emphasis": {
                 "focus": "series"
             },
-            "data": [320, 332, 301, 334]
+            "data": [899, 1799, 2999, 0]
         }
     ]
 }
