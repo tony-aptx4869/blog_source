@@ -174,10 +174,13 @@ tags:
 | :-: | :- | :- | :- |
 | Seagate FireCuda 530 | 是的。由希捷确认。 | 京东自营所售没有附带散热片，请自行选购散热片。 | 1 TB - <a href="https://item.jd.com/100024621732.html" target="_blank">1,699 元</a><br>2 TB - <a href="https://item.jd.com/100024621730.html" target="_blank">3,699 元</a><br>4 TB - <a href="https://item.jd.com/100024621734.html" target="_blank">6,659 元</a> |
 | WD Black SN850 | 是的。由西部数据确认。 | 附带散热片。 | 500 GB - <a href="https://item.jd.com/100010508833.html" target="_blank">869 元</a><br>1 TB - <a href="https://item.jd.com/100018883934.html" target="_blank">1,599 元</a><br>2 TB - <a href="https://item.jd.com/100019182650.html" target="_blank">3,299 元</a> |
-| Samsung 980 Pro | 是的。通过fragilityv2确认。 | 京东自营所售没有附带散热片，请自行选购散热片。 | 250 GB - <a href="https://item.jd.com/100015610860.html" target="_blank">629 元</a><br>500 GB - <a href="https://item.jd.com/100008757399.html" target="_blank">949 元</a><br>1 TB - <a href="https://item.jd.com/100008757393.html" target="_blank">1,599 元</a><br>2 TB - <a href="https://item.jd.com/100018171904.html" target="_blank">2,999 元</a> |
+| Samsung 980 Pro | 是的。通过 fragilityv2 确认。 | 京东自营所售没有附带散热片，请自行选购散热片。 | 250 GB - <a href="https://item.jd.com/100015610860.html" target="_blank">629 元</a><br>500 GB - <a href="https://item.jd.com/100008757399.html" target="_blank">949 元</a><br>1 TB - <a href="https://item.jd.com/100008757393.html" target="_blank">1,599 元</a><br>2 TB - <a href="https://item.jd.com/100018171904.html" target="_blank">2,999 元</a> |
 | AORUS 7000s Gen4 | 是的。由技嘉确认。 | 附带散热片。 | 1 TB - <a href="https://item.jd.com/10029494093695.html" target="_blank">1,799 元</a><br>2 TB - <a href="https://item.jd.com/10029494093696.html" target="_blank">2,999 元</a> |
+| Sabrent Rocket 4 Plus | 是的。由 The Verge 确认。 | 附带的散热片高度超标，请选购其他散热片。 | 该产品未在京东自营销售，此处提供美国亚马逊信息。<br>1 TB - <a href="https://www.amazon.com/dp/B08P2B6JKV/ref=cm_sw_em_r_mt_dp_GAWW0BAN65W7HFNQ07M1?_encoding=UTF8&psc=1" target="_blank">200 美元</a><br>2 TB - <a href="https://www.amazon.com/dp/B08P2CG4JK/ref=cm_sw_em_r_mt_dp_NYD13F30F87YB8VE8JQE?_encoding=UTF8&psc=1" target="_blank">469.99 美元</a><br>4 TB - <a href="https://www.amazon.com/dp/B08VF99PV8/ref=cm_sw_em_r_mt_dp_J9EYX277M2RAQ8H1HT4Z?_encoding=UTF8&psc=1" target="_blank">999.99 美元</a> |
+| MSI Spatium M480 | 是的未确认。 | 产品没有附带散热片，请自行选购散热片。 | 还未上市。预估价格信息：<br>500 GB - 119 美元<br>1 TB - 239 美元<br>2 TB - 399 美元 |
 | Corsair MP600 Pro | 是的。未确认。 | 附带的散热片高度超标，请选购其他散热片。 | 1 TB - <a href="https://item.jd.com/100019616194.html" target="_blank">2,299 元</a><br>2 TB - <a href="https://item.jd.com/100019616170.html" target="_blank">3,999 元</a> |
 | 威刚(ADATA) XPG 翼龙 S70 | 是的。未确认。 | 附带的散热片高度超标，请选购其他散热片。附带的散热片非常难拆卸。 | 1 TB - <a href="https://item.jd.com/100017988100.html" target="_blank">2,499 元</a> |
+
 
 ## 受欢迎的六款 SSD 对照比较
 
