@@ -15,18 +15,24 @@ tags:
   - PCIe Gen 4
 ---
 
+<strong><red>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</red></strong>
+
 ## 引言
 
 索尼最近放出了一个 PS5 系统固件（Beta 版本），开启了 PS5 主机内置的 M.2 NVMe SSD 插槽。M.2 NVMe SSD 插槽这个最重要、最有用的功能终于快要正式启用了。PS5 发布已经半年多了，用户最大的抱怨之一，除了放货灰常灰常少以外，当属内置 SSD 可用存储空间灰常灰常小。这次 Beta 版本更新开启扩展存储的功能得到了好坏参半的回应，因为许多 SSD 购买者已经清楚地看到，PS5 所需的 SSD 在架构上比前几代 SATA HDD 和 SSD 要先进得多。再加上对 PCIe 连接、散热片等事物的理解，以及为什么这种新的 SSD 技术要更昂贵的原因，这无疑让人挠头，并导致了相当多的抱怨！
 
 通过本文，我想帮助您，为您的 PS5 选择合适的 SSD 。目前，索尼官方尚未发布 SSD 兼容性列表，来告诉 PS5 用户 SSD 在尺寸、性能和架构方面所需的规格，但这并没有阻止许多网友联合起来，分享自己的 PS5 支持和兼容的 SSD 和散热片。因此，本文讨论目前适合 PS5 使用的 SSD 和散热片，以供朋友们参考。
 
+**如果您没有时间读完全文，或是现在就着急购买，至少请看下面这两张表格。**
+
 ## TOP 3
 
-如果您没有时间读完全文，至少请看下面这个表格。
+<strong><red>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</red></strong>
+
+### 推荐 PS5 扩展 M.2 NVMe SSD 兼容列表 TOP 3
 
 <table align="center">
-    <caption>推荐 PS5 扩展 SSD 兼容列表 TOP 3</caption>
+    <caption>推荐 PS5 扩展 M.2 NVMe SSD 兼容列表 TOP 3</caption>
     <tr>
         <th style="width: 33.3333%;">
             Seagate Firecuda 530<br>
@@ -112,7 +118,42 @@ tags:
     </tr>
 </table>
 
+### 推荐 PS5 扩展散热片兼容列表 TOP 3
 
+我在京东上搜索了「散热片」，通过跟几家客服聊天，只有 [佳翼(JEYI)](https://mall.jd.com/index-1000223349.html) 这一家店自信满满地表示，其有一款名为「酷冷纯黑(WarShip)」的散热片可以安装在PS5上，而且这一款产品也[在美国亚马逊销售](https://www.amazon.com/dp/B08L35L1ZY/ref=cm_sw_em_r_mt_dp_Y7BA8RS2274WQ7RJEA1X)。余下的散热片我只能依据国外网友的反馈，提供美国亚马逊的地址供朋友们参考。
 
+<strong><red>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</red></strong>
 
+<table align="center">
+    <caption>推荐 PS5 扩展散热片兼容列表 TOP 3</caption>
+    <tr>
+        <th style="width: 33.3333%;">
+            佳翼(JEYI) 散热片 酷冷纯黑(WarShip)<br>
+            <img src="https://aptx4869.tv/images/ps5/ssd/jeyi-m.2-heatsink-warship.jpg" alt="佳翼(JEYI) 酷冷纯黑(WarShip)">
+        </th>
+        <th style="width: 33.3333%;">
+            ELUTENG M.2 2280 Heatsink, Double-Sided<br>
+            <img src="https://aptx4869.tv/images/ps5/ssd/eluteng-m.2-heatsink-double-sided.png" alt="ELUTENG M.2 2280 Heatsink, Double-Sided">
+        </th>
+        <th style="width: 33.3333%;">
+            MHQJRH M.2 2280 SSD heatsink<br>
+            <img src="https://aptx4869.tv/images/ps5/ssd/mhqrjr-m.2-heatsink.png" alt="MHQJRH M.2 2280 SSD heatsink">
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://item.jd.com/100006345258.html" target="_blank">29 元</a>
+        </td>
+        <td>
+            <a href="https://www.amazon.com/dp/B07PS9S2DZ/ref=cm_sw_em_r_mt_dp_Y4DCD0ZG130PCSFK0H48" target="_blank">美国亚马逊</a>
+        </td>
+        <td>
+            <a href="https://www.amazon.com/dp/B07KDDKDNN/ref=cm_sw_em_r_mt_dp_S44YQBV2QABX1ZKMGG41" target="_blank">美国亚马逊</a>
+        </td>
+    </tr>
+</table>
+
+<strong><red>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</red></strong>
+
+## 较完整的 PS5 扩展 M.2 NVMe SSD 兼容列表
 
