@@ -23,20 +23,20 @@ tags:
 
 ## TOP 3
 
-如果您没有时间读完全文，请至少请看下面这个表格。
+如果您没有时间读完全文，至少请看下面这个表格。
 
 <table align="center">
     <caption>推荐 PS5 扩展 SSD 兼容列表 TOP 3</caption>
     <tr>
-        <th>
+        <th style="width: 33.3333%;">
             Seagate Firecuda 530<br>
             <img src="https://aptx4869.tv/images/ps5/ssd/firecuda-530-nvme-ssd-pcie-4x4.png" alt="Seagate Firecuda 530">
         </th>
-        <th>
+        <th style="width: 33.3333%;">
             Samsung 980 Pro<br>
             <img src="https://aptx4869.tv/images/ps5/ssd/samsung-980-pro-nvme-ssd-pcie-4x4.png" alt="Samsung 980 Pro">
         </th>
-        <th>
+        <th style="width: 33.3333%;">
             WD Black SN850<br>
             <img src="https://aptx4869.tv/images/ps5/ssd/wd-black-sn850-nvme-ssd-pcie-4x4.png" alt="WD Black SN850">
         </th>
@@ -97,15 +97,15 @@ tags:
         </td>
     </tr>
     <tr>
-        <td>
+        <td style="width: 33.3333%;">
             <img src="https://aptx4869.tv/images/ps5/ssd/firecuda-530-ps5-control-load-test.gif" alt="Seagate Firecuda 530 Control PS5 载入测试"><br>
             <strong>Control PS5 载入测试</strong>
         </td>
-        <td>
+        <td style="width: 33.3333%;">
             <img src="https://aptx4869.tv/images/ps5/ssd/samsung-980-pro-ps5-maneater-load-test.gif" alt="Samsung 980 Pro Maneater PS5 载入测试"><br>
             <strong>Maneater PS5 载入测试</strong>
         </td>
-        <td>
+        <td style="width: 33.3333%;">
             <img src="https://aptx4869.tv/images/ps5/ssd/wd-black-sn850-ps5-plague-tale-load-test.gif" alt="WD Black SN850 Plague Tale PS5 载入测试"><br>
             <strong>Plague Tale PS5 载入测试</strong>
         </td>
