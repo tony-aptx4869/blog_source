@@ -97,6 +97,13 @@ category_map:
   Forensics: forensics
   Terminal: terminal
   ls: ls
+  PlayStation 5: playstation_5
+  扩展 SSD: expansion_ssd
+  PS5: ps5
+  SSD: ssd
+  M.2: m.2
+  NVMe: nvme
+  PCIe Gen 4: pcie_gen_4
 tag_map:
   コナン: conan
   中文: chinese
@@ -130,6 +137,13 @@ tag_map:
   Forensics: forensics
   Terminal: terminal
   ls: ls
+  PlayStation 5: playstation_5
+  扩展 SSD: expansion_ssd
+  PS5: ps5
+  SSD: ssd
+  M.2: m.2
+  NVMe: nvme
+  PCIe Gen 4: pcie_gen_4
 
 
 # Date / Time format
