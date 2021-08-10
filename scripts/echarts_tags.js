@@ -1,41 +1,40 @@
 // Tags for echarts
 'use strict';
 
-function echartsMaps(args, content) {
-    var options = {};
-    if (content.length) {
-        var options = content;
-    }
-    let chart_id = "echarts" + ((Math.random() * 9999) | 0);
-    let result = `
-        <div id="${chart_id}" style="width: ${args[1] || '100%'};height: ${args[0] || 400}px;margin: 0 auto"></div>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-        <script type="text/javascript">
-            // 基于准备好的dom，初始化echarts实例
-            var myChart = echarts.init(document.getElementById('${chart_id}'));
-            // 指定图表的配置项和数据
-            ${options}
-            // 使用刚指定的配置项和数据显示图表。
-            myChart.setOption(option);
-        </script>
-    `;
-    return result;
-}
+// function echartsMaps(args, content) {
+//     var options = {};
+//     if (content.length) {
+//         var options = content;
+//     }
+//     let chart_id = "echarts" + (Math.random() * 100000);
+//     let chart_var = chart_id.slice(0, 11);
+//     let result = `
+//         <div id="${chart_id}" style="width: ${args[1] || '100%'};height: ${args[0] || 500}px;margin: 0 auto"></div>
+//         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+//         <script type="text/javascript">
+//             var ${chart_var} = echarts.init(document.getElementById('${chart_id}'));
+//             ${options}
+//             ${chart_var}.setOption(option);
+//         </script>
+//     `;
+//     return result;
+// }
 
-hexo.extend.tag.register("echarts", echartsMaps, {
-    async: true,
-    ends: true,
-});
+// hexo.extend.tag.register("echarts", echartsMaps, {
+//     async: true,
+//     ends: true,
+// });
 
 function echartsRemote(args) {
-    let chart_id = "echarts" + ((Math.random() * 9999) | 0);
+    let chart_id = "echarts" + (Math.random() * 100000);
+    let chart_var = chart_id.slice(0, 11);
     let result = `
-        <div id="${chart_id}" style="width: ${args[2] || '100%'};height: ${args[1] || 400}px;margin: 0 auto"></div>
+        <div id="${chart_id}" style="width: ${args[2] || '100%'};height: ${args[1] || 500}px;margin: 0 auto"></div>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
         <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript">
             var dom = document.getElementById('${chart_id}');
-            var myChart = echarts.init(dom, 'dark');
+            var ${chart_var} = echarts.init(dom, 'dark');
 
             var app = {};
             var option;
@@ -74,7 +73,7 @@ function echartsRemote(args) {
                 },
                 distance: {
                     min: 0,
-                    max: 100
+                    max: 200
                 }
             };
 
@@ -83,7 +82,7 @@ function echartsRemote(args) {
                 align: 'left',
                 verticalAlign: 'middle',
                 position: 'insideBottom',
-                distance: 15,
+                distance: 25,
                 onChange: function () {
                     var labelOption = {
                         normal: {
@@ -94,7 +93,7 @@ function echartsRemote(args) {
                             distance: app.config.distance
                         }
                     };
-                    myChart.setOption({
+                    ${chart_var}.setOption({
                         series: [{
                             label: labelOption
                         }, {
@@ -108,30 +107,15 @@ function echartsRemote(args) {
                 }
             };
 
-            var labelOption = {
-                show: true,
-                position: app.config.position,
-                distance: app.config.distance,
-                align: app.config.align,
-                verticalAlign: app.config.verticalAlign,
-                rotate: app.config.rotate,
-                formatter: '{c}  {name|{a}}',
-                fontSize: 16,
-                rich: {
-                    name: {
-                    }
-                }
-            };
-
             $.get('/data/${args[0]}').done(function (data) {
                 //alert(JSON.stringify(data)); 
-                myChart.setOption(data);
+                ${chart_var}.setOption(data);
             });
         </script>
     `;
     return result;
 }
 
-hexo.extend.tag.register("ecr", echartsRemote, {
+hexo.extend.tag.register("echarts", echartsRemote, {
     ends: false,
 });

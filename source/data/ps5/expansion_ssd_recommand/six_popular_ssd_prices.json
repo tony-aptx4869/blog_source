@@ -1,8 +1,22 @@
 {
     "title": {
-        "text": "受欢迎的六款 SSD 对照比较 —— 价格",
+        "text": "六款受欢迎的 M.2 NVMe SSD 对照比较 —— 价格",
         "top": "top",
         "left": "center"
+    },
+    "grid": {
+        "id": "six_popular_ssd_prices_dataset"
+    },
+    "dataset": {
+        "source": [
+            ["ssd_price",               "500 GB",   "1 TB", "2 TB", "4 TB"  ],
+            ["Seagate FireCuda 530",    0,          1699,   3699,   6659    ],
+            ["WD Black SN850",          869,        1599,   3299,   0       ],
+            ["Samsung 980 Pro",         949,        1599,   2999,   0       ],
+            ["AORUS 7000s Gen4",        0,          1799,   2999,   0       ],
+            ["Sabrent Rocket 4 Plus",   0,          1499,   3499,   8099    ],
+            ["MSI Spatium M480",        899,        1799,   2999,   0       ]
+        ]
     },
     "tooltip": {
         "trigger": "axis",
@@ -22,22 +36,13 @@
         }
     },
     "legend": {
-        "data":[
-            "Seagate FireCuda 530",
-            "WD Black SN850",
-            "Samsung 980 Pro",
-            "AORUS 7000s Gen4",
-            "Sabrent Rocket Plus",
-            "MSI SPATIUM M480"
-        ],
         "left": "center",
         "top": "bottom"
     },
     "xAxis": [
         {
             "type": "category",
-            "name": "存储容量",
-            "data":["500 GB", "1 TB", "2 TB", "4 TB"]
+            "name": "存储容量"
         }
     ],
     "yAxis": [
@@ -51,7 +56,7 @@
     ],
     "series": [
         {
-            "name": "Seagate FireCuda 530",
+            "seriesLayoutBy": "row",
             "type": "bar",
             "barGap": 0.1,
             "label": "labelOption",
@@ -60,11 +65,10 @@
                 "label": {
                     "show": false
                 }
-            },
-            "data": [0, 1699, 3699, 6659]
+            }
         },
         {
-            "name": "WD Black SN850",
+            "seriesLayoutBy": "row",
             "type": "bar",
             "barGap": 0.1,
             "label": "labelOption",
@@ -73,11 +77,10 @@
                 "label": {
                     "show": false
                 }
-            },
-            "data": [869, 1599, 3299, 0]
+            }
         },
         {
-            "name": "Samsung 980 Pro",
+            "seriesLayoutBy": "row",
             "type": "bar",
             "barGap": 0.1,
             "label": "labelOption",
@@ -86,11 +89,10 @@
                 "label": {
                     "show": false
                 }
-            },
-            "data": [949, 1599, 2999, 0]
+            }
         },
         {
-            "name": "AORUS 7000s Gen4",
+            "seriesLayoutBy": "row",
             "type": "bar",
             "barGap": 0.1,
             "label": "labelOption",
@@ -99,11 +101,10 @@
                 "label": {
                     "show": false
                 }
-            },
-            "data": [0, 1799, 2999, 0]
+            }
         },
         {
-            "name": "Sabrent Rocket Plus",
+            "seriesLayoutBy": "row",
             "type": "bar",
             "barGap": 0.1,
             "label": "labelOption",
@@ -112,11 +113,10 @@
                 "label": {
                     "show": false
                 }
-            },
-            "data": [0, 1499, 3499, 8099]
+            }
         },
         {
-            "name": "MSI SPATIUM M480",
+            "seriesLayoutBy": "row",
             "type": "bar",
             "barGap": 0.1,
             "label": "labelOption",
@@ -125,8 +125,7 @@
                 "label": {
                     "show": false
                 }
-            },
-            "data": [899, 1799, 2999, 0]
+            }
         }
     ]
 }

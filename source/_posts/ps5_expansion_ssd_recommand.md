@@ -182,11 +182,26 @@ tags:
 | 威刚(ADATA) XPG 翼龙 S70 | 是的。未确认。 | 附带的散热片高度超标，请选购其他散热片。附带的散热片非常难拆卸。 | 1 TB - <a href="https://item.jd.com/100017988100.html" target="_blank">2,499 元</a> |
 
 
-## 受欢迎的六款 SSD 对照比较
+## 六款受欢迎的 M.2 NVMe SSD 对照比较
+
+目前，受到是否正式发售、有否备货等各种原因影响，上表中前六款 M.2 NVMe SSD 相对来讲比较受欢迎。我们现在将这六款 M.2 NVMe SSD 做一个简单的，但较为详细的比较。因为针对 PS5 使用需求，在满足最基本的性能硬性要求的基础上，还有读写速度、存储容量、耐用性——比如最大可写入数据量（下文简称为 `TBW` ）、保修年限——等各种性能指标可以供选择。而这些性能指标因素会影响到价格，下面我的对照比较希望可以帮助您更好的选择适合自己的 M.2 NVMe SSD 。
+
+### 架构和规格
+
+| 品牌系列 | Seagate Firecuda 530 | WD Black SN850 | Samsung 980 Pro | Sabrent Rocket 4 Plus | MSI Spatium M480 | AORUS 7000s Gen4
+| :-: | - | - | - | - | - | -
+| PCIe 世代 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4
+| NVMe 修订版本 | NVMe 1.4 | NVMe 1.4 | NVMe 1.3c | NVMe 1.4 | NVMe 1.4 | NVMe 1.4
+| 最大容量 | 4TB – 双面 | 2TB | 2TB | 4TB - 双面 | 2TB | 2TB
+| 控制芯片 | Phison E18-PS5018 | WD_BLACK G2 | Custom Elpis | Phison E18-PS5018 | Phison E18-PS5018 | Phison E18-PS5018
+| 存储芯片 | 3D TLC Micron B47R 176L | BiCS4 96L TLC | 3D TLC | B27 3D NAND 96L | B27 3D NAND 96L | B27 3D NAND 96L
+| 保修年限 | 5 年 | 5 年 | 5 年 | 5 年 | 5 年 | 5 年
 
 ### 价格
 
-{% ecr ps5/expansion_ssd_recommand/six_popular_ssd_prices_dataset.json %}
+{% echarts ps5/expansion_ssd_recommand/six_popular_ssd_prices.json %}
 
-### 性能参数
+### 读写速度
+
+{% echarts ps5/expansion_ssd_recommand/six_popular_ssd_speed.json %}
 

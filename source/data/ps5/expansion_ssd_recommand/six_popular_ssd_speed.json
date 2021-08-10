@@ -1,0 +1,229 @@
+{
+    "title": {
+        "text": "六款受欢迎的 M.2 NVMe SSD 对照比较 —— 读写速度",
+        "top": "top",
+        "left": "center"
+    },
+    "grid": {
+        "id": "six_popular_ssd_speed_prices_dataset",
+        "bottom": 100
+    },
+    "dataset": [{
+            "source": [
+                ["ssd_price",               "500 GB",   "1 TB", "2 TB", "4 TB"  ],
+                ["Seagate FireCuda 530",    0,          1699,   3699,   6659    ],
+                ["WD Black SN850",          869,        1599,   3299,   0       ],
+                ["Samsung 980 Pro",         949,        1599,   2999,   0       ],
+                ["AORUS 7000s Gen4",        0,          1799,   2999,   0       ],
+                ["Sabrent Rocket 4 Plus",   0,          1499,   3499,   8099    ],
+                ["MSI Spatium M480",        899,        1799,   2999,   0       ]
+            ]}, {
+            "source": [
+                ["ssd_read_speed",          "500 GB",   "1 TB", "2 TB", "4 TB"  ],
+                ["Seagate FireCuda 530",    0,          7300,   7300,   7300    ],
+                ["WD Black SN850",          7000,       7000,   7000,   0       ],
+                ["Samsung 980 Pro",         6900,       7000,   7000,   0       ],
+                ["AORUS 7000s Gen4",        0,          7000,   7000,   0       ],
+                ["Sabrent Rocket 4 Plus",   0,          7000,   7100,   7100    ],
+                ["MSI Spatium M480",        6500,       7000,   7000,   0       ]
+            ]}, {
+            "source": [
+                ["ssd_write_speed",         "500 GB",   "1 TB", "2 TB", "4 TB"  ],
+                ["Seagate FireCuda 530",    0,          6000,   6900,   6900    ],
+                ["WD Black SN850",          4100,       5300,   5100,   0       ],
+                ["Samsung 980 Pro",         5000,       5000,   5100,   0       ],
+                ["AORUS 7000s Gen4",        0,          5500,   6850,   0       ],
+                ["Sabrent Rocket 4 Plus",   0,          5500,   6850,   6850    ],
+                ["MSI Spatium M480",        2850,       5500,   6850,   0       ]
+            ]}
+    ],
+    "tooltip": {
+        "trigger": "axis",
+        "axisPointer": {
+            "type": "shadow"
+        }
+    },
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "left": "right",
+        "top": "top",
+        "feature": {
+            "mark": {"show": true},
+            "saveAsImage": {"show": true},
+            "restore": {"show": true}
+        }
+    },
+    "legend": {
+        "left": "center",
+        "top": "bottom"
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "name": "存储容量"
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "scale": false,
+            "name": "MB/s",
+            "max": 16000,
+            "min": 0
+        }
+    ],
+    "series": [
+        {
+            "datasetIndex": 1,
+            "seriesLayoutBy": "row",
+            "name": "Seagate FireCuda 530 读速度",
+            "stack": "Seagate FireCuda 530 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },
+        {
+            "datasetIndex": 2,
+            "seriesLayoutBy": "row",
+            "name": "Seagate FireCuda 530 写速度",
+            "stack": "Seagate FireCuda 530 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },{
+            "datasetIndex": 1,
+            "seriesLayoutBy": "row",
+            "name": "WD Black SN850 读速度",
+            "stack": "WD Black SN850 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },
+        {
+            "datasetIndex": 2,
+            "seriesLayoutBy": "row",
+            "name": "WD Black SN850 写速度",
+            "stack": "WD Black SN850 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },{
+            "datasetIndex": 1,
+            "seriesLayoutBy": "row",
+            "name": "Samsung 980 Pro 读速度",
+            "stack": "Samsung 980 Pro 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },
+        {
+            "datasetIndex": 2,
+            "seriesLayoutBy": "row",
+            "name": "Samsung 980 Pro 写速度",
+            "stack": "Samsung 980 Pro 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },{
+            "datasetIndex": 1,
+            "seriesLayoutBy": "row",
+            "name": "AORUS 7000s Gen4 读速度",
+            "stack": "AORUS 7000s Gen4 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },
+        {
+            "datasetIndex": 2,
+            "seriesLayoutBy": "row",
+            "name": "AORUS 7000s Gen4 写速度",
+            "stack": "AORUS 7000s Gen4 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },{
+            "datasetIndex": 1,
+            "seriesLayoutBy": "row",
+            "name": "Sabrent Rocket 4 Plus 读速度",
+            "stack": "Sabrent Rocket 4 Plus 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },
+        {
+            "datasetIndex": 2,
+            "seriesLayoutBy": "row",
+            "name": "Sabrent Rocket 4 Plus 写速度",
+            "stack": "Sabrent Rocket 4 Plus 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },{
+            "datasetIndex": 1,
+            "seriesLayoutBy": "row",
+            "name": "MSI Spatium M480 读速度",
+            "stack": "MSI Spatium M480 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        },
+        {
+            "datasetIndex": 2,
+            "seriesLayoutBy": "row",
+            "name": "MSI Spatium M480 写速度",
+            "stack": "MSI Spatium M480 读写速度",
+            "type": "bar",
+            "emphasis": {
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
+            }
+        }
+    ]
+} 
