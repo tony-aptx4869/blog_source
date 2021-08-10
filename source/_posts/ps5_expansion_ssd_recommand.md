@@ -186,7 +186,7 @@ tags:
 
 ### 价格
 
-{% ecr ps5/expansion_ssd_recommand/ps5_expansion_ssd_recommand_prices.json %}
+{% ecr ps5/expansion_ssd_recommand/six_popular_ssd_prices.json %}
 
 ### 性能参数
 
