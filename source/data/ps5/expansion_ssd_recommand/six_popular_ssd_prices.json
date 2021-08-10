@@ -47,7 +47,8 @@
             "name": "人民币/元",
             "max": 9000,
             "min": 0
-        }],
+        }
+    ],
     "series": [
         {
             "name": "Seagate FireCuda 530",
@@ -55,7 +56,10 @@
             "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
-                "focus": "series"
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
             },
             "data": [0, 1699, 3699, 6659]
         },
@@ -65,7 +69,10 @@
             "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
-                "focus": "series"
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
             },
             "data": [869, 1599, 3299, 0]
         },
@@ -75,7 +82,10 @@
             "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
-                "focus": "series"
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
             },
             "data": [949, 1599, 2999, 0]
         },
@@ -85,7 +95,10 @@
             "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
-                "focus": "series"
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
             },
             "data": [0, 1799, 2999, 0]
         },
@@ -95,7 +108,10 @@
             "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
-                "focus": "series"
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
             },
             "data": [0, 1499, 3499, 8099]
         },
@@ -105,7 +121,10 @@
             "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
-                "focus": "series"
+                "focus": "series",
+                "label": {
+                    "show": false
+                }
             },
             "data": [899, 1799, 2999, 0]
         }
