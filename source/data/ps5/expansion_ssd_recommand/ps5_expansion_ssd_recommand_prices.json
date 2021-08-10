@@ -1,10 +1,26 @@
 {
     "title": {
         "text": "受欢迎的六款 SSD 对照比较 —— 价格",
-        "top": "bottom",
+        "top": "top",
         "left": "center"
     },
-    "tooltip": {},
+    "tooltip": {
+        "trigger": "axis",
+        "axisPointer": {
+            "type": "shadow"
+        }
+    },
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "left": "right",
+        "top": "top",
+        "feature": {
+            "mark": {"show": true},
+            "saveAsImage": {"show": true},
+            "restore": {"show": true}
+        }
+    },
     "legend": {
         "data":[
             "Seagate FireCuda 530",
@@ -13,23 +29,30 @@
             "AORUS 7000s Gen4",
             "Sabrent Rocket Plus",
             "MSI SPATIUM M480"
-        ]
+        ],
+        "left": "center",
+        "top": "bottom"
     },
     "xAxis": [
         {
             "type": "category",
+            "name": "存储容量",
             "data":["500 GB", "1 TB", "2 TB", "4 TB"]
         }
     ],
     "yAxis": [
         {
-            "type": "value"
+            "type": "value",
+            "scale": false,
+            "name": "人民币/元",
+            "max": 9000,
+            "min": 0
         }],
     "series": [
         {
             "name": "Seagate FireCuda 530",
             "type": "bar",
-            "barGap": 1,
+            "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
                 "focus": "series"
@@ -39,7 +62,7 @@
         {
             "name": "WD Black SN850",
             "type": "bar",
-            "barGap": 1,
+            "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
                 "focus": "series"
@@ -49,7 +72,7 @@
         {
             "name": "Samsung 980 Pro",
             "type": "bar",
-            "barGap": 1,
+            "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
                 "focus": "series"
@@ -59,7 +82,7 @@
         {
             "name": "AORUS 7000s Gen4",
             "type": "bar",
-            "barGap": 1,
+            "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
                 "focus": "series"
@@ -69,7 +92,7 @@
         {
             "name": "Sabrent Rocket Plus",
             "type": "bar",
-            "barGap": 1,
+            "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
                 "focus": "series"
@@ -79,7 +102,7 @@
         {
             "name": "MSI SPATIUM M480",
             "type": "bar",
-            "barGap": 1,
+            "barGap": 0.1,
             "label": "labelOption",
             "emphasis": {
                 "focus": "series"

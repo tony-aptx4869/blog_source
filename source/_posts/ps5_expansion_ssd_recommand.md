@@ -120,7 +120,7 @@ tags:
     </tr>
 </table>
 
-### 推荐 PS5 扩展散热片兼容列表 TOP 3
+### 推荐 PS5 扩展 M.2 NVMe SSD 散热片兼容列表 TOP 3
 
 <strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
 
@@ -186,7 +186,7 @@ tags:
 
 ### 价格
 
-{% ecr ps5_expansion_ssd_recommand_prices.json %}
+{% ecr ps5/expansion_ssd_recommand/ps5_expansion_ssd_recommand_prices.json %}
 
 ### 性能参数
 
