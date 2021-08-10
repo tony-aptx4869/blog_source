@@ -37,7 +37,7 @@
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-next-darkmode": "^0.1.5",
-    "hexo-renderer-marked": "4.0.0",
+    "hexo-renderer-pandoc": "^0.3.0",
     "hexo-renderer-stylus": "2.0.1",
     "hexo-server": "2.0.0",
     "hexo-theme-next": "^8.6.1",

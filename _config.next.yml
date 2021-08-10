@@ -436,9 +436,11 @@ exturl: true
 # ============================================================= #
 
 math:
+  per_page: true
   mathjax:
     enable: true
     tags: ams
+    mhchem: true
 
 pjax: true
 
