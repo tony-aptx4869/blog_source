@@ -56,7 +56,15 @@
     "legend": {
         "type": "scroll",
         "left": "center",
-        "bottom": "3%"
+        "bottom": "3%",
+        "selected": {
+            "AORUS 7000s Gen4 读速度": false,
+            "AORUS 7000s Gen4 写速度": false,
+            "Sabrent Rocket 4 Plus 读速度": false,
+            "Sabrent Rocket 4 Plus 写速度": false,
+            "MSI Spatium M480 读速度": false,
+            "MSI Spatium M480 写速度": false
+        }
     },
     "xAxis": [
         {
@@ -67,10 +75,13 @@
     "yAxis": [
         {
             "type": "value",
-            "scale": false,
-            "name": "MB/s",
+            "name": "读写速度",
             "max": 15000,
-            "min": 0
+            "min": 0,
+            "interval": 3000,
+            "axisLabel": {
+                "formatter": "{value} MB/s"
+            }
         }
     ],
     "series": [

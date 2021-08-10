@@ -56,21 +56,40 @@
     "legend": {
         "type": "scroll",
         "left": "center",
-        "bottom": "3%"
+        "bottom": "3%",
+        "selected": {
+            "Seagate FireCuda 530 价格": false,
+            "WD Black SN850 价格": false,
+            "Samsung 980 Pro 价格": false,
+            "AORUS 7000s Gen4 价格": false,
+            "Sabrent Rocket 4 Plus 价格": false,
+            "MSI Spatium M480 价格": false
+        }
     },
     "xAxis": [
         {
-            "type": "category",
-            "name": "存储容量"
+            "type": "category"
         }
     ],
     "yAxis": [
         {
             "type": "value",
-            "scale": false,
-            "name": "MB/s",
+            "name": "读写速度",
             "max": 15000,
-            "min": 0
+            "min": 0,
+            "interval": 3000,
+            "axisLabel": {
+                "formatter": "{value} MB/s"
+            }
+        },{
+            "type": "value",
+            "name": "价格",
+            "max": 8000,
+            "min": 0,
+            "interval": 1600,
+            "axisLabel": {
+                "formatter": "{value} 元"
+            }
         }
     ],
     "series": [
@@ -86,8 +105,7 @@
                     "show": false
                 }
             }
-        },
-        {
+        }, {
             "datasetIndex": 2,
             "seriesLayoutBy": "row",
             "name": "Seagate FireCuda 530 写速度",
@@ -99,7 +117,20 @@
                     "show": false
                 }
             }
-        },{
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "Seagate FireCuda 530 价格",
+            "type": "bar",
+            "barWidth": 6,
+            "yAxisIndex": 1,
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
             "datasetIndex": 1,
             "seriesLayoutBy": "row",
             "name": "WD Black SN850 读速度",
@@ -111,8 +142,7 @@
                     "show": false
                 }
             }
-        },
-        {
+        }, {
             "datasetIndex": 2,
             "seriesLayoutBy": "row",
             "name": "WD Black SN850 写速度",
@@ -124,7 +154,20 @@
                     "show": false
                 }
             }
-        },{
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "WD Black SN850 价格",
+            "type": "bar",
+            "barWidth": 6,
+            "yAxisIndex": 1,
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
             "datasetIndex": 1,
             "seriesLayoutBy": "row",
             "name": "Samsung 980 Pro 读速度",
@@ -136,8 +179,7 @@
                     "show": false
                 }
             }
-        },
-        {
+        }, {
             "datasetIndex": 2,
             "seriesLayoutBy": "row",
             "name": "Samsung 980 Pro 写速度",
@@ -149,7 +191,20 @@
                     "show": false
                 }
             }
-        },{
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "Samsung 980 Pro 价格",
+            "type": "bar",
+            "barWidth": 6,
+            "yAxisIndex": 1,
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
             "datasetIndex": 1,
             "seriesLayoutBy": "row",
             "name": "AORUS 7000s Gen4 读速度",
@@ -161,8 +216,7 @@
                     "show": false
                 }
             }
-        },
-        {
+        }, {
             "datasetIndex": 2,
             "seriesLayoutBy": "row",
             "name": "AORUS 7000s Gen4 写速度",
@@ -174,7 +228,20 @@
                     "show": false
                 }
             }
-        },{
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "AORUS 7000s Gen4 价格",
+            "type": "bar",
+            "barWidth": 6,
+            "yAxisIndex": 1,
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
             "datasetIndex": 1,
             "seriesLayoutBy": "row",
             "name": "Sabrent Rocket 4 Plus 读速度",
@@ -186,8 +253,7 @@
                     "show": false
                 }
             }
-        },
-        {
+        }, {
             "datasetIndex": 2,
             "seriesLayoutBy": "row",
             "name": "Sabrent Rocket 4 Plus 写速度",
@@ -199,7 +265,20 @@
                     "show": false
                 }
             }
-        },{
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "Sabrent Rocket 4 Plus 价格",
+            "type": "bar",
+            "barWidth": 6,
+            "yAxisIndex": 1,
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
             "datasetIndex": 1,
             "seriesLayoutBy": "row",
             "name": "MSI Spatium M480 读速度",
@@ -211,8 +290,7 @@
                     "show": false
                 }
             }
-        },
-        {
+        }, {
             "datasetIndex": 2,
             "seriesLayoutBy": "row",
             "name": "MSI Spatium M480 写速度",
@@ -227,63 +305,10 @@
         }, {
             "datasetIndex": 0,
             "seriesLayoutBy": "row",
-            "name": "Seagate FireCuda 530 价格",
-            "type": "line",
-            "emphasis": {
-                "focus": "item",
-                "label": {
-                    "show": false
-                }
-            }
-        }, {
-            "datasetIndex": 0,
-            "seriesLayoutBy": "row",
-            "name": "WD Black SN850 价格",
-            "type": "line",
-            "emphasis": {
-                "focus": "item",
-                "label": {
-                    "show": false
-                }
-            }
-        }, {
-            "datasetIndex": 0,
-            "seriesLayoutBy": "row",
-            "name": "Samsung 980 Pro 价格",
-            "type": "line",
-            "emphasis": {
-                "focus": "item",
-                "label": {
-                    "show": false
-                }
-            }
-        }, {
-            "datasetIndex": 0,
-            "seriesLayoutBy": "row",
-            "name": "AORUS 7000s Gen4 价格",
-            "type": "line",
-            "emphasis": {
-                "focus": "item",
-                "label": {
-                    "show": false
-                }
-            }
-        }, {
-            "datasetIndex": 0,
-            "seriesLayoutBy": "row",
-            "name": "Sabrent Rocket 4 Plus 价格",
-            "type": "line",
-            "emphasis": {
-                "focus": "item",
-                "label": {
-                    "show": false
-                }
-            }
-        }, {
-            "datasetIndex": 0,
-            "seriesLayoutBy": "row",
             "name": "MSI Spatium M480 价格",
-            "type": "line",
+            "type": "bar",
+            "barWidth": 6,
+            "yAxisIndex": 1,
             "emphasis": {
                 "focus": "item",
                 "label": {
