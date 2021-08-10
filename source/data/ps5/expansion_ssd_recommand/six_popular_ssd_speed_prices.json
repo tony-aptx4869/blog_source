@@ -83,7 +83,7 @@
             }
         },{
             "type": "value",
-            "name": "价格",
+            "name": "人民币",
             "max": 8000,
             "min": 0,
             "interval": 1600,

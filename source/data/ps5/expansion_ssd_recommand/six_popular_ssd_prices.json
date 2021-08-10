@@ -48,10 +48,13 @@
     "yAxis": [
         {
             "type": "value",
-            "scale": false,
-            "name": "人民币/元",
-            "max": 9000,
-            "min": 0
+            "name": "价格",
+            "max": 8000,
+            "min": 0,
+            "interval": 2000,
+            "axisLabel": {
+                "formatter": "{value} 元"
+            }
         }
     ],
     "series": [
