@@ -37,7 +37,7 @@
     },
     "legend": {
         "left": "center",
-        "top": "bottom"
+        "bottom": 3
     },
     "xAxis": [
         {

@@ -24,7 +24,7 @@ mathjax: true
 
 通过本文，我想帮助您，为您的 PS5 选择合适的 SSD 。目前，索尼官方尚未发布 SSD 兼容性列表，来告诉 PS5 用户 SSD 在尺寸、性能和架构方面所需的规格，但这并没有阻止许多网友联合起来，分享自己的 PS5 支持和兼容的 SSD 和散热片。因此，本文讨论目前适合 PS5 使用的 SSD 和散热片，以供朋友们参考。
 
-**如果您没有时间读完全文，或是现在就着急购买，请看[TOP 3](https://aptx4869.tv/2021/08/09/ps5_expansion_ssd_recommand/#TOP-3)一节。**
+**如果您没有时间读完全文，或是现在就着急购买，请看 [TOP 3](#top-3) 一节。**
 
 ## TOP 3
 
@@ -33,37 +33,37 @@ mathjax: true
 ### 推荐 PS5 扩展 M.2 NVMe SSD 兼容列表 TOP 3
 
 话不多说，直接推荐下列这三款。
-
+ 
 <table align="center">
     <caption>推荐 PS5 扩展 M.2 NVMe SSD 兼容列表 TOP 3</caption>
     <tr>
         <th style="width: 33.3333%;">
-            Seagate Firecuda 530<br>
+            <p align="center"><strong>Seagate Firecuda 530</strong></p><br>
             <img src="https://aptx4869.tv/images/ps5/ssd/firecuda-530-nvme-ssd-pcie-4x4.png" alt="Seagate Firecuda 530">
         </th>
         <th style="width: 33.3333%;">
-            Samsung 980 Pro<br>
+            <p align="center"><strong>Samsung 980 Pro</strong></p><br>
             <img src="https://aptx4869.tv/images/ps5/ssd/samsung-980-pro-nvme-ssd-pcie-4x4.png" alt="Samsung 980 Pro">
         </th>
         <th style="width: 33.3333%;">
-            WD Black SN850<br>
+            <p align="center"><strong>WD Black SN850</strong></p><br>
             <img src="https://aptx4869.tv/images/ps5/ssd/wd-black-sn850-nvme-ssd-pcie-4x4.png" alt="WD Black SN850">
         </th>
     </tr>
     <tr>
         <td>
-            -
+            \-
         </td>
         <td>
             250 GB - <a href="https://item.jd.com/100015610860.html" target="_blank">629 元</a>
         </td>
         <td>
-            -
+            \-
         </td>
     </tr>
     <tr>
         <td>
-            -
+            \-
         </td>
         <td>
             500 GB - <a href="https://item.jd.com/100008757399.html" target="_blank">949 元</a>
@@ -99,10 +99,10 @@ mathjax: true
             4 TB - <a href="https://item.jd.com/100024621734.html" target="_blank">6,659 元</a>
         </td>
         <td>
-            -
+            \-
         </td>
         <td>
-            -
+            \-
         </td>
     </tr>
     <tr>
@@ -205,7 +205,7 @@ mathjax: true
 
 关于价格说明如下：
 
-1. Sabrent Rocket 4 Plus 系列未在京东自营销售，因此，图表中人民币价格为估值，仅供参考，估算方法是使用美国亚马逊的美元价格乘 `1.13` 后再适当增加，补齐成 `xx99` 的格式。其美国亚马逊价格信息及链接，请参见 [PS5 扩展 M.2 NVMe SSD 兼容列表](https://aptx4869.tv/2021/08/09/ps5_expansion_ssd_recommand/#PS5-%E6%89%A9%E5%B1%95-M-2-NVMe-SSD-%E5%85%BC%E5%AE%B9%E5%88%97%E8%A1%A8) 一节中的表格。
+1. Sabrent Rocket 4 Plus 系列未在京东自营销售，因此，图表中人民币价格为估值，仅供参考，估算方法是使用美国亚马逊的美元价格乘 `1.13` 后再适当增加，补齐成 `xx99` 的格式。其美国亚马逊价格信息及链接，请参见 `3. PS5 扩展 M.2 NVMe SSD 兼容列表` 一节中的表格。
 2. MSI Spatium M480 还未上市，其美元价格信息参照国外网友的预估，图表中人民币价格估算方法与上一条相同。
 
 ### 读写速度
@@ -243,3 +243,81 @@ mathjax: true
 以 **`ZP4000GM3A013`** 这一型号为例，其 TBW 为 5,100 TB，保修年限为 5 年，存储容量为 4 TB （= 4 × 1000 GB = 4000 GB）。因此：$$DWPD = { 5100 \times 1000 \over 5 \times 365 \times 4000 } \approx 0.7$$
 很多朋友可能会疑问，为什么我把 GB 和 TB 之间的进制写成 1000 而不是 1024 ，关于这个问题请自行参考 [字节 - 维基百科](https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82) 。
 3. 平均故障间隔时间（MTBF）：是指产品或系统在两次相邻故障间隔期内正确工作的平均时间，也称平均无故障工作时间。它是衡量产品或系统能平均工作多长时间的量。
+
+
+### 对比结论
+
+从对比结果综合来看，Seagate Firecuda 530 毋庸置疑是最大的赢家。Seagate Firecuda 530 性能最强，各项指标都很出色，完全得益于它开发时间最长，拥有集成度更高的存储芯片和优异的 Phison E18 控制芯片。同时，Seagate Firecuda 530 也是为数不多提供 4TB 大存储容量的产品。Samsung 980 Pro 也是一款不错的产品，它提供了低至 250GB 的小存储容量，在价格和存储容量之间有一个很好的平衡，其性能也很是不错。而 WD Black SN850 也颇具性价比，其京东自营附带有官方的散热片，对于第三方散热片有疑虑和担心的朋友来说这是很不错的选择！
+
+<table align="center">
+    <caption>推荐 PS5 扩展 M.2 NVMe SSD 兼容列表 TOP 3</caption>
+    <tr>
+        <th style="width: 33.3333%;">
+            <p align="center"><strong>Seagate Firecuda 530</strong></p><br>
+            <img src="https://aptx4869.tv/images/ps5/ssd/firecuda-530-nvme-ssd-pcie-4x4.png" alt="Seagate Firecuda 530">
+        </th>
+        <th style="width: 33.3333%;">
+            <p align="center"><strong>Samsung 980 Pro</strong></p><br>
+            <img src="https://aptx4869.tv/images/ps5/ssd/samsung-980-pro-nvme-ssd-pcie-4x4.png" alt="Samsung 980 Pro">
+        </th>
+        <th style="width: 33.3333%;">
+            <p align="center"><strong>WD Black SN850</strong></p><br>
+            <img src="https://aptx4869.tv/images/ps5/ssd/wd-black-sn850-nvme-ssd-pcie-4x4.png" alt="WD Black SN850">
+        </th>
+    </tr>
+    <tr>
+        <td>
+            \-
+        </td>
+        <td>
+            250 GB - <a href="https://item.jd.com/100015610860.html" target="_blank">629 元</a>
+        </td>
+        <td>
+            \-
+        </td>
+    </tr>
+    <tr>
+        <td>
+            \-
+        </td>
+        <td>
+            500 GB - <a href="https://item.jd.com/100008757399.html" target="_blank">949 元</a>
+        </td>
+        <td>
+            500 GB - <a href="https://item.jd.com/100010508833.html" target="_blank">869 元</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            1 TB - <a href="https://item.jd.com/100024621732.html" target="_blank">1,699 元</a>
+        </td>
+        <td>
+            1 TB - <a href="https://item.jd.com/100008757393.html" target="_blank">1,599 元</a>
+        </td>
+        <td>
+            1 TB - <a href="https://item.jd.com/100018883934.html" target="_blank">1,599 元</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            2 TB - <a href="https://item.jd.com/100024621730.html" target="_blank">3,699 元</a>
+        </td>
+        <td>
+            2 TB - <a href="https://item.jd.com/100018171904.html" target="_blank">2,999 元</a>
+        </td>
+        <td>
+            2 TB - <a href="https://item.jd.com/100019182650.html" target="_blank">3,299 元</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            4 TB - <a href="https://item.jd.com/100024621734.html" target="_blank">6,659 元</a>
+        </td>
+        <td>
+            \-
+        </td>
+        <td>
+            \-
+        </td>
+    </tr>
+</table>

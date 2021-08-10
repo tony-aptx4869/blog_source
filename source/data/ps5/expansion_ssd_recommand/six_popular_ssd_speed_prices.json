@@ -224,6 +224,72 @@
                     "show": false
                 }
             }
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "Seagate FireCuda 530 价格",
+            "type": "line",
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "WD Black SN850 价格",
+            "type": "line",
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "Samsung 980 Pro 价格",
+            "type": "line",
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "AORUS 7000s Gen4 价格",
+            "type": "line",
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "Sabrent Rocket 4 Plus 价格",
+            "type": "line",
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
+        }, {
+            "datasetIndex": 0,
+            "seriesLayoutBy": "row",
+            "name": "MSI Spatium M480 价格",
+            "type": "line",
+            "emphasis": {
+                "focus": "item",
+                "label": {
+                    "show": false
+                }
+            }
         }
     ]
-} 
+}
