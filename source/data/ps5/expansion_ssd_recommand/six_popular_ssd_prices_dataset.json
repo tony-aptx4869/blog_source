@@ -6,7 +6,7 @@
     },
     "dataset": {
         "source": [
-            ["ssd",                     "500 GB",   "1 TB", "2 TB", "4 TB"  ],
+            ["ssd_price",               "500 GB",   "1 TB", "2 TB", "4 TB"  ],
             ["Seagate FireCuda 530",    0,          1699,   3699,   6659    ],
             ["WD Black SN850",          869,        1599,   3299,   0       ],
             ["Samsung 980 Pro",         949,        1599,   2999,   0       ],
