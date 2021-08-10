@@ -165,43 +165,71 @@ tags:
 
 <strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
 
-## 较完整的 PS5 扩展 M.2 NVMe SSD 兼容列表
+## PS5 扩展 M.2 NVMe SSD 兼容列表
 
+对于那些有更多时间、希望有更多选择的朋友，或者是希望在 PS5 系统固件版本 `2.0-04.00.00` 正式发布之后再购买 M.2 NVMe SSD 的朋友，可以关注下面这张表。我会定期更新兼容 PS5 的 M.2 NVMe SSD 信息。
 
-<p align=center>PS5 扩展 M.2 NVMe SSD 兼容列表<br>更新日期：2021年8月9日</p>
+<p align=center><strong>PS5 扩展 M.2 NVMe SSD 兼容列表</strong><br>更新日期：2021年8月9日</p>
 
 | SSD | 满足 PS5 要求 | 散热片（重要） | 价格和链接 |
-| :-: | :- | :- | :- |
+| :- | :- | :- | :- |
 | Seagate FireCuda 530 | 是的。由希捷确认。 | 京东自营所售没有附带散热片，请自行选购散热片。 | 1 TB - <a href="https://item.jd.com/100024621732.html" target="_blank">1,699 元</a><br>2 TB - <a href="https://item.jd.com/100024621730.html" target="_blank">3,699 元</a><br>4 TB - <a href="https://item.jd.com/100024621734.html" target="_blank">6,659 元</a> |
 | WD Black SN850 | 是的。由西部数据确认。 | 附带散热片。 | 500 GB - <a href="https://item.jd.com/100010508833.html" target="_blank">869 元</a><br>1 TB - <a href="https://item.jd.com/100018883934.html" target="_blank">1,599 元</a><br>2 TB - <a href="https://item.jd.com/100019182650.html" target="_blank">3,299 元</a> |
 | Samsung 980 Pro | 是的。通过 fragilityv2 确认。 | 京东自营所售没有附带散热片，请自行选购散热片。 | 250 GB - <a href="https://item.jd.com/100015610860.html" target="_blank">629 元</a><br>500 GB - <a href="https://item.jd.com/100008757399.html" target="_blank">949 元</a><br>1 TB - <a href="https://item.jd.com/100008757393.html" target="_blank">1,599 元</a><br>2 TB - <a href="https://item.jd.com/100018171904.html" target="_blank">2,999 元</a> |
 | AORUS 7000s Gen4 | 是的。由技嘉确认。 | 附带散热片。 | 1 TB - <a href="https://item.jd.com/10029494093695.html" target="_blank">1,799 元</a><br>2 TB - <a href="https://item.jd.com/10029494093696.html" target="_blank">2,999 元</a> |
 | Sabrent Rocket 4 Plus | 是的。由 The Verge 确认。 | 附带的散热片高度超标，请选购其他散热片。 | 该产品未在京东自营销售，此处提供美国亚马逊信息。<br>1 TB - <a href="https://www.amazon.com/dp/B08P2B6JKV/ref=cm_sw_em_r_mt_dp_GAWW0BAN65W7HFNQ07M1?_encoding=UTF8&psc=1" target="_blank">200 美元</a><br>2 TB - <a href="https://www.amazon.com/dp/B08P2CG4JK/ref=cm_sw_em_r_mt_dp_NYD13F30F87YB8VE8JQE?_encoding=UTF8&psc=1" target="_blank">469.99 美元</a><br>4 TB - <a href="https://www.amazon.com/dp/B08VF99PV8/ref=cm_sw_em_r_mt_dp_J9EYX277M2RAQ8H1HT4Z?_encoding=UTF8&psc=1" target="_blank">999.99 美元</a> |
-| MSI Spatium M480 | 是的未确认。 | 产品没有附带散热片，请自行选购散热片。 | 还未上市。预估价格信息：<br>500 GB - 119 美元<br>1 TB - 239 美元<br>2 TB - 399 美元 |
+| MSI Spatium M480 | 是的未确认。 | 产品没有附带散热片，请自行选购散热片。 | 还未上市。外国网友预估价格信息：<br>500 GB - 119 美元<br>1 TB - 239 美元<br>2 TB - 399 美元 |
 | Corsair MP600 Pro | 是的。未确认。 | 附带的散热片高度超标，请选购其他散热片。 | 1 TB - <a href="https://item.jd.com/100019616194.html" target="_blank">2,299 元</a><br>2 TB - <a href="https://item.jd.com/100019616170.html" target="_blank">3,999 元</a> |
 | 威刚(ADATA) XPG 翼龙 S70 | 是的。未确认。 | 附带的散热片高度超标，请选购其他散热片。附带的散热片非常难拆卸。 | 1 TB - <a href="https://item.jd.com/100017988100.html" target="_blank">2,499 元</a> |
 
 
 ## 六款受欢迎的 M.2 NVMe SSD 对照比较
 
-目前，受到是否正式发售、有否备货等各种原因影响，上表中前六款 M.2 NVMe SSD 相对来讲比较受欢迎。我们现在将这六款 M.2 NVMe SSD 做一个简单的，但较为详细的比较。因为针对 PS5 使用需求，在满足最基本的性能硬性要求的基础上，还有读写速度、存储容量、耐用性——比如最大可写入数据量（下文简称为 `TBW` ）、保修年限——等各种性能指标可以供选择。而这些性能指标因素会影响到价格，下面我的对照比较希望可以帮助您更好的选择适合自己的 M.2 NVMe SSD 。
+目前，受到是否正式发售、有否备货等各种原因影响，上表中前六款 M.2 NVMe SSD 相对来讲比较受欢迎。我们现在将这六款 M.2 NVMe SSD 做一个简单的，但较为详细的比较。针对 PS5 使用需求，在满足最基本的性能硬性要求的基础上，还有读写速度、存储容量、耐用性——比如最大可写入数据量（下文简称为 `TBW` ）——等各种性能指标可以供选择。而这些性能指标因素会影响到价格，下面我的对照比较希望可以帮助您更好的选择适合自己的 M.2 NVMe SSD 。
 
 ### 架构和规格
 
-| 品牌系列 | Seagate Firecuda 530 | WD Black SN850 | Samsung 980 Pro | Sabrent Rocket 4 Plus | MSI Spatium M480 | AORUS 7000s Gen4
-| :-: | - | - | - | - | - | -
-| PCIe 世代 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4
-| NVMe 修订版本 | NVMe 1.4 | NVMe 1.4 | NVMe 1.3c | NVMe 1.4 | NVMe 1.4 | NVMe 1.4
-| 最大容量 | 4TB – 双面 | 2TB | 2TB | 4TB - 双面 | 2TB | 2TB
-| 控制芯片 | Phison E18-PS5018 | WD_BLACK G2 | Custom Elpis | Phison E18-PS5018 | Phison E18-PS5018 | Phison E18-PS5018
-| 存储芯片 | 3D TLC Micron B47R 176L | BiCS4 96L TLC | 3D TLC | B27 3D NAND 96L | B27 3D NAND 96L | B27 3D NAND 96L
-| 保修年限 | 5 年 | 5 年 | 5 年 | 5 年 | 5 年 | 5 年
+| 品牌系列 | Seagate Firecuda 530 | WD Black SN850 | Samsung 980 Pro | AORUS 7000s Gen4 | Sabrent Rocket 4 Plus | MSI Spatium M480 |
+| - | - | - | - | - | - | - |
+| PCIe 世代 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 | PCIe Gen 4 |
+| NVMe 修订版本 | NVMe 1.4 | NVMe 1.4 | NVMe 1.3c | NVMe 1.4 | NVMe 1.4 | NVMe 1.4 |
+| 最大容量 | 4TB – 双面 | 2TB | 2TB | 2TB | 4TB - 双面 | 2TB |
+| 控制芯片 | Phison E18-PS5018 | WD_BLACK G2 | Custom Elpis | Phison E18-PS5018 | Phison E18-PS5018 | Phison E18-PS5018 |
+| 存储芯片 | 3D TLC Micron B47R 176L | BiCS4 96L TLC | 3D TLC | B27 3D NAND 96L | B27 3D NAND 96L | B27 3D NAND 96L |
+| 保修年限 | 5 年 | 5 年 | 5 年 | 5 年 | 5 年 | 5 年 |
 
 ### 价格
+
+关于价格特别说明如下：
+
+1. Sabrent Rocket 4 Plus 系列未在京东自营销售，因此，图表中人民币价格为估值，仅供参考，估算方法是使用美国亚马逊的美元价格乘1.13后再适当增加，补齐成 `xx99` 的格式。其美国亚马逊价格信息及链接，请参见 [PS5 扩展 M.2 NVMe SSD 兼容列表]() 一节中的表格。
+2. MSI Spatium M480 还未上市，其美元价格信息参照国外网友的预估，图表中人民币价格估算方法与上一条相同。
 
 {% echarts ps5/expansion_ssd_recommand/six_popular_ssd_prices.json %}
 
 ### 读写速度
 
+图表中，「读速度」指的是「最大顺序读取速度，128KB」，「写速度」指的是「最大顺序写入速度，128KB」。单位均为 `MB/s`。
+
 {% echarts ps5/expansion_ssd_recommand/six_popular_ssd_speed.json %}
 
+### 耐用性
+
+| 品牌系列 | Seagate Firecuda 530 | WD Black SN850 | Samsung 980 Pro | AORUS 7000s Gen4 | Sabrent Rocket 4 Plus | MSI Spatium M480 |
+| - | - | - | - | - | - | - |
+| **500GB 型号 | ZP500GM3A013 | WDS500G1X0E-00AFY0 | MZ-V8P500BW | 无此型号 | 无此型号 | M480-500GB** |
+| 总写入TB (TBW) | 640TB | 300TB | 300TB | - | - | 350TB |
+| 平均故障时间（MTBF，小时） | 1,800,000 | 1,750,000 | 1,500,000 | - | - | 1,600,000 |
+| 每日全盘写入次数（DWPD） | 0.7DWPD | 0.3DWPD | 0.3DWPD | - | - | 0.38DWPD |
+| **1TB 型号 | ZP1000GM3A013 | WDS100T1X0E-00AFY0 | MZ-V8P1T0BW | GP-AG70S1TB | SB-RKT4P-1TB | M480-1000GB** |
+| 总写入TB (TBW) | 1275TB | 600TB | 600TB | 700TB | 700TB | 700TB |
+| 平均故障时间（MTBF，小时） | 1,800,000 | 1,750,000 | 1,500,000 | 1,600,000 | 1,600,000 | 1,600,000 |
+| 每日全盘写入次数（DWPD） | 0.7DWPD | 0.3DWPD | 0.3DWPD | 0.38DWPD | 0.4DWPD | 0.38DWPD |
+| **2TB 型号 | ZP2000GM3A013 | WDS200T1X0E-00AFY0 | MZ-V8P2T0BW | GP-AG70S2TB | SB-RKT4P-2TB | M480-2000GB** |
+| 总写入TB (TBW) | 2550TB | 1200TB | 1200TB | 1400TB | 1400TB | 1400TB |
+| 平均故障时间（MTBF，小时） | 1,800,000 | 1,750,000 | 1,500,000 | 1,600,000 | 1,600,000 | 1,600,000
+| 每日全盘写入次数（DWPD） | 0.7DWPD | 0.3DWPD | 0.3DWPD | 0.38DWPD | 0.38DWPD | 0.38DWPD |
+| **4TB 型号 | ZP4000GM3A013 |   | 无此型号 | 无此型号 | SB-RKT4P-4TB | 无此型号** |
+| 总写入TB (TBW) | 5100TB | 不适用 | 不适用 | - | 3000TB | - |
+| 平均故障时间（MTBF，小时） | 1,800,000 | 不适用 | 不适用 | - | 1,600,000 | - |
+| 每日全盘写入次数（DWPD） | 0.7DWPD | - | 0.3DWPD | - | 0.4DWPD | - |
