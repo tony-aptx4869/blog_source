@@ -43,6 +43,7 @@ jobs:
           rm -f source/lib/pdf/README.md
           echo ">>>>>> pdf_lib installation done!"
 
+          sudo apt update
           sudo apt -y install pandoc
           echo ">>>>>> pandoc installation done!"
 
