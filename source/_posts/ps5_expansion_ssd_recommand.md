@@ -16,7 +16,7 @@ tags:
 mathjax: true
 ---
 
-<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
+<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不装散热片会有烧坏风险！</font></strong>
 
 ## 引言
 
@@ -28,7 +28,7 @@ mathjax: true
 
 ## TOP 3
 
-<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
+<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不装散热片会有烧坏风险！</font></strong>
 
 ### 推荐 PS5 扩展 M.2 NVMe SSD 兼容列表 TOP 3
 
@@ -123,7 +123,7 @@ mathjax: true
 
 ### 推荐 PS5 扩展 M.2 NVMe SSD 散热片兼容列表 TOP 3
 
-<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
+<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不装散热片会有烧坏风险！</font></strong>
 
 我在京东上搜索了「散热片」，通过跟几家客服聊天，只有 [佳翼(JEYI)](https://mall.jd.com/index-1000223349.html) 这一家店自信满满地表示，其推出一款名为「酷冷纯黑(WarShip)」的散热片可以安装在 PS5 上，而且这一款产品也[在美国亚马逊销售](https://www.amazon.com/dp/B08L35L1ZY/ref=cm_sw_em_r_mt_dp_Y7BA8RS2274WQ7RJEA1X)。余下的散热片我只能依据国外网友的反馈，提供美国亚马逊的地址供朋友们参考。
 
@@ -164,7 +164,7 @@ mathjax: true
     </tr>
 </table>
 
-<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不然装散热片会有烧坏风险！</font></strong>
+<strong><font color=dd0000>重要提示：超高性能的 PS5 扩展 SSD 在工作中会发出巨大热量，请一定要安装散热片！不装散热片会有烧坏风险！</font></strong>
 
 ## PS5 扩展 M.2 NVMe SSD 兼容列表
 
