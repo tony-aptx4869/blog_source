@@ -43,6 +43,9 @@ jobs:
           rm -f source/lib/pdf/README.md
           echo ">>>>>> pdf_lib installation done!"
 
+          sudo apt -y install pandoc
+          echo ">>>>>> pandoc installation done!"
+
           echo "Install hexo ALL done!"
 
       # Runs a set of commands using the runners shell
